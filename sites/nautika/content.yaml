@@ -18,7 +18,7 @@ categories:
               - id: "popis-prijavljenih"
                 title: "Popis trenutno prijavljenih radnika"
                 longDescription: "Ovdje je prikazan ukupan broj radnika koji su trenutno prijavljeni u objekt. Ova informacija omogućuje brz uvid u trenutačnu popunjenost osoblja."
-                imagePath: "/images/nautika/pocetna-min.png" # Placeholder images
+                imagePath: "/images/nautika/pocetna-min.png"
                 imageInitialState:
                   zoom: 1.5
                   x: 0
@@ -98,11 +98,11 @@ categories:
               - id: "zadaci-pregled1"
                 title: "Pregled zadataka"
                 longDescription: "Ovdje je prikazan pregled svih zadataka dodijeljenih korisnicima. Svaki zadatak sadrži osnovne informacije o statusu i dodijeljenom radniku, što omogućuje jednostavno praćenje napretka i učinkovitosti tima."
-                imagePath: "/images/nautika/Zadaci-min.png" # Placeholder images
+                imagePath: "/images/nautika/Zadaci-min.png"
               - id: "zadaci-pregled2"
                 title: "Pregled zadataka filter"
                 longDescription: "Zadatke je, osim po restoranima, moguće dodatno filtrirati prema statusima. Inicijalno je postavljen početni status, a korisnik može prema potrebi odabrati i druge dostupne statuse za precizniji prikaz zadataka."
-                imagePath: "/images/nautika/Zadaci-filter-min.png" # Placeholder images
+                imagePath: "/images/nautika/Zadaci-filter-min.png"
                 coordinates:
                   - id: "hotspot-info-1"
                     title: "Filter"
@@ -122,7 +122,7 @@ categories:
               - id: "popis-prijavljenih"
                 title: "Dodavanje zadataka"
                 longDescription: "Izgled ekrana za dodavanje zadataka"
-                imagePath: "/images/nautika/Zadaci-dodavanje-min.png" # Placeholder images
+                imagePath: "/images/nautika/Zadaci-dodavanje-min.png"
                 coordinates:
                   - id: "hotspot-zadatak-1"
                     title: "Zaposlenik"
@@ -194,7 +194,7 @@ categories:
               - id: "popis-prijavljenih"
                 title: "Uređivanje zadataka"
                 longDescription: "Povlačenjem zadatka na listi lagano ulijevo otvara se dodatni izbornik s opcijama za uređivanje ili brisanje. Ova funkcionalnost omogućuje brzu i jednostavnu izmjenu ili uklanjanje zadataka iz popisa."
-                imagePath: "/images/nautika/Zadaci-uredjivanje-min.png" # Placeholder images
+                imagePath: "/images/nautika/Zadaci-uredjivanje-min.png"
       - id: "biljeske"
         name: "Bilješke"
         children:
@@ -204,18 +204,18 @@ categories:
               - id: "biljeske-pregled1"
                 title: "Pregled bilješki"
                 longDescription: "Ovdje je prikazan pregled svih bilješki dodijeljenih korisnicima. Svaka bilješka sadrži osnovne informacije o radniku kojemu je dodjeljena i datum kada je dodjeljena."
-                imagePath: "/images/nautika/Biljeske-min.png" # Placeholder images
+                imagePath: "/images/nautika/Biljeske-min.png"
               - id: "biljeske-pregled2"
                 title: "Detalji bilješke"
                 longDescription: "Klikom na bilješku u listi otvaraju se detalji koji su ovdje prikazani. Također je moguće urediti ili obrisati bilješku."
-                imagePath: "/images/nautika/Biljeske-pregled-min.png" # Placeholder images
+                imagePath: "/images/nautika/Biljeske-pregled-min.png"
           - id: "biljeske2"
             name: "Uređivanje bilješki"
             pages:
               - id: "bilojeske/pregled2"
                 title: "Uređivanje bilješke"
                 longDescription: "Povlačenjem bilješke na listi lagano ulijevo otvara se dodatni izbornik s opcijama za uređivanje ili brisanje. Ova funkcionalnost omogućuje brzu i jednostavnu izmjenu ili uklanjanje bilješki iz popisa."
-                imagePath: "/images/nautika/Biljeske-edit-min.png" # Placeholder images
+                imagePath: "/images/nautika/Biljeske-edit-min.png"
 
 languages:
   - code: "en"
