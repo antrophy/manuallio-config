@@ -18,7 +18,7 @@ categories:
               - id: "popis-prijavljenih"
                 title: "Popis trenutno prijavljenih radnika"
                 longDescription: "Ovdje je prikazan ukupan broj radnika koji su trenutno prijavljeni u objekt. Ova informacija omogućuje brz uvid u trenutačnu popunjenost osoblja."
-                imagePath: "/images/nautika/pocetna-min.png"
+                imagePath: "https://manuallio.com/images/nautika/pocetna-min.png"
                 imageInitialState:
                   zoom: 1.5
                   x: 0
@@ -41,7 +41,7 @@ categories:
               - id: "pregled-prijavljenih2"
                 title: "Pregled prijavljenih radnika"
                 longDescription: "Na ovom dijelu prikazan je popis trenutno prijavljenih radnika, uz jasno naznačeno vrijeme njihove prijave. Radnici koji su tijekom dana već odjavili svoj radni status prikazani su na dnu liste, uz evidentirano vrijeme odjave. Na taj način omogućeno je jednostavno praćenje prisutnosti i radnog vremena svih zaposlenika u realnom vremenu."
-                imagePath: "/images/nautika/Pregled-prijavljenih-radnika-min.png"
+                imagePath: "https://manuallio.com/images/nautika/Pregled-prijavljenih-radnika-min.png" # Placeholder image
                 coordinates:
                   - id: "hotspot-info-1"
                     title: "Vrijeme prijave"
@@ -71,7 +71,7 @@ categories:
               - id: "pregled-prijavljenih3"
                 title: "Pregled prijavljenih radnika"
                 longDescription: "Klikom ili odabirom gumba (Oznaka 1) otvara se prečac putem kojeg je moguće dodijeliti zadatak odabranom radniku ili unijeti bilješku vezanu uz njegov rad. Ova funkcionalnost omogućuje brzu i efikasnu komunikaciju te praćenje zadataka i napomena unutar tima."
-                imagePath: "/images/nautika/Pregled-radnika-dodavanje-min.png"
+                imagePath: "https://manuallio.com/images/nautika/Pregled-radnika-dodavanje-min.png" # Placeholder image
                 imageInitialState:
                   zoom: 1.5
                   x: -50
@@ -98,11 +98,11 @@ categories:
               - id: "zadaci-pregled1"
                 title: "Pregled zadataka"
                 longDescription: "Ovdje je prikazan pregled svih zadataka dodijeljenih korisnicima. Svaki zadatak sadrži osnovne informacije o statusu i dodijeljenom radniku, što omogućuje jednostavno praćenje napretka i učinkovitosti tima."
-                imagePath: "/images/nautika/Zadaci-min.png"
+                imagePath: "https://manuallio.com/images/nautika/Zadaci-min.png"
               - id: "zadaci-pregled2"
                 title: "Pregled zadataka filter"
                 longDescription: "Zadatke je, osim po restoranima, moguće dodatno filtrirati prema statusima. Inicijalno je postavljen početni status, a korisnik može prema potrebi odabrati i druge dostupne statuse za precizniji prikaz zadataka."
-                imagePath: "/images/nautika/Zadaci-filter-min.png"
+                imagePath: "https://manuallio.com/images/nautika/Zadaci-filter-min.png"
                 coordinates:
                   - id: "hotspot-info-1"
                     title: "Filter"
@@ -122,7 +122,7 @@ categories:
               - id: "popis-prijavljenih"
                 title: "Dodavanje zadataka"
                 longDescription: "Izgled ekrana za dodavanje zadataka"
-                imagePath: "/images/nautika/Zadaci-dodavanje-min.png"
+                imagePath: "https://manuallio.com/images/nautika/Zadaci-dodavanje-min.png"
                 coordinates:
                   - id: "hotspot-zadatak-1"
                     title: "Zaposlenik"
@@ -194,7 +194,7 @@ categories:
               - id: "popis-prijavljenih"
                 title: "Uređivanje zadataka"
                 longDescription: "Povlačenjem zadatka na listi lagano ulijevo otvara se dodatni izbornik s opcijama za uređivanje ili brisanje. Ova funkcionalnost omogućuje brzu i jednostavnu izmjenu ili uklanjanje zadataka iz popisa."
-                imagePath: "/images/nautika/Zadaci-uredjivanje-min.png"
+                imagePath: "https://manuallio.com/images/nautika/Zadaci-uredjivanje-min.png"
       - id: "biljeske"
         name: "Bilješke"
         children:
@@ -204,18 +204,18 @@ categories:
               - id: "biljeske-pregled1"
                 title: "Pregled bilješki"
                 longDescription: "Ovdje je prikazan pregled svih bilješki dodijeljenih korisnicima. Svaka bilješka sadrži osnovne informacije o radniku kojemu je dodjeljena i datum kada je dodjeljena."
-                imagePath: "/images/nautika/Biljeske-min.png"
+                imagePath: "https://manuallio.com/images/nautika/Biljeske-min.png"
               - id: "biljeske-pregled2"
                 title: "Detalji bilješke"
                 longDescription: "Klikom na bilješku u listi otvaraju se detalji koji su ovdje prikazani. Također je moguće urediti ili obrisati bilješku."
-                imagePath: "/images/nautika/Biljeske-pregled-min.png"
+                imagePath: "https://manuallio.com/images/nautika/Biljeske-pregled-min.png"
           - id: "biljeske2"
             name: "Uređivanje bilješki"
             pages:
               - id: "bilojeske/pregled2"
                 title: "Uređivanje bilješke"
                 longDescription: "Povlačenjem bilješke na listi lagano ulijevo otvara se dodatni izbornik s opcijama za uređivanje ili brisanje. Ova funkcionalnost omogućuje brzu i jednostavnu izmjenu ili uklanjanje bilješki iz popisa."
-                imagePath: "/images/nautika/Biljeske-edit-min.png"
+                imagePath: "https://manuallio.com/images/nautika/Biljeske-edit-min.png"
 
 languages:
   - code: "en"
@@ -225,6 +225,13 @@ languages:
     default: true
 
 translations:
+  # Add your translations here
+  search_placeholder:
+    en: "Search..."
+    hr: "Pretraži..."
+  search_see_all:
+    en: "See all"
+    hr: "Prikaži sve"
   next:
     en: "Next"
     hr: "Sljedeći"
