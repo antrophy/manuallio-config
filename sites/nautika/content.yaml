@@ -41,7 +41,7 @@ categories:
               - id: "pregled-prijavljenih2"
                 title: "Pregled prijavljenih radnika"
                 longDescription: "Na ovom dijelu prikazan je popis trenutno prijavljenih radnika, uz jasno naznačeno vrijeme njihove prijave. Radnici koji su tijekom dana već odjavili svoj radni status prikazani su na dnu liste, uz evidentirano vrijeme odjave. Na taj način omogućeno je jednostavno praćenje prisutnosti i radnog vremena svih zaposlenika u realnom vremenu."
-                imagePath: "https://manuallio.com/images/nautika/Pregled-prijavljenih-radnika-min.png" # Placeholder image
+                imagePath: "https://manuallio.com/images/nautika/Pregled-prijavljenih-radnika-min.png"
                 coordinates:
                   - id: "hotspot-info-1"
                     title: "Vrijeme prijave"
@@ -71,7 +71,7 @@ categories:
               - id: "pregled-prijavljenih3"
                 title: "Pregled prijavljenih radnika"
                 longDescription: "Klikom ili odabirom gumba (Oznaka 1) otvara se prečac putem kojeg je moguće dodijeliti zadatak odabranom radniku ili unijeti bilješku vezanu uz njegov rad. Ova funkcionalnost omogućuje brzu i efikasnu komunikaciju te praćenje zadataka i napomena unutar tima."
-                imagePath: "https://manuallio.com/images/nautika/Pregled-radnika-dodavanje-min.png" # Placeholder image
+                imagePath: "https://manuallio.com/images/nautika/Pregled-radnika-dodavanje-min.png"
                 imageInitialState:
                   zoom: 1.5
                   x: -50
