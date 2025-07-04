@@ -216,29 +216,36 @@ categories:
     children:
       - id: "mcbscip8gv2s60gxdgt"
         name: "Početna"
-        pages:
-          - id: "mcbscsagtdcfiwygnz"
-            title: "Početna"
-            imagePath: "https://i.ibb.co/qXQRZ7Q/pocetna-mobile.png"
-            coordinates:
-              - id: "mcbsdzfm3xl1pep2lmx"
-                x: 500
-                y: 540
+        children:
+          - id: "mcnihp53kwxqbzvmp1p"
+            name: "Početna stranica"
+            pages:
+              - id: "mcnik96pu1f607v8ohk"
+                title: "Početna"
+              - id: "mcnike5wpar2e3rbyz"
                 title: "Opcije firme"
-              - id: "mcbse174deq24ksyjv8"
-                x: 396
-                y: 538
-                title: "Cerfitikat"
-              - id: "mcbse3xvg7hny5elyaa"
-                x: 226
-                y: 439
-                title: "Ime i status firme"
-  - id: "mcnhv1fekm73t8vsor"
-    name: "Izbornik"
-    children:
-      - id: "mcnhxhto2f40hx51f0z"
-        name: "Postavke"
-      - id: "mcnhxvddo7cguug7r7"
-        name: "Artikli"
-      - id: "mcnhya2b9k28bo9f0e"
-        name: "Cjenik"
+          - id: "mcnii4ctfd5yh57he4v"
+            name: "Prodajna mjesta"
+            pages:
+              - id: "mcniif4gd2yer3tusae"
+                title: "Prodajno mjesto"
+              - id: "mcniktt93di3aw3buqv"
+                title: "Blagajne"
+          - id: "mcnillixsdmi0jf4nrd"
+            name: "Blagajne"
+            pages:
+              - id: "mcnilrqbm0canci4ncs"
+                title: "Blagajne"
+      - id: "mcnigxvzg82hp4auk57"
+        name: "Izbornik"
+        children:
+          - id: "mcnim6lpfj4e4pj8snn"
+            name: "Postavke"
+          - id: "mcnimd0amd6ng3rwxi"
+            name: "Artikli"
+          - id: "mcnin4oyis5x9dbfez"
+            name: "Cjenik"
+          - id: "mcninchfd7scbsjc9qv"
+            name: "Skladište"
+          - id: "mcniniqlrleqpt8hxia"
+            name: "Računi i ponude"
