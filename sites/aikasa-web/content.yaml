@@ -77,50 +77,41 @@ categories:
             pages:
               - id: "pregled-prijavljenih2"
                 title: "Prodajno mjesto"
-                imagePath: "https://i.ibb.co/rRr5bwmL/prodajna-mjesta.png"
+                imagePath: "https://i.ibb.co/fV1Y5vKh/blagajna.png"
                 longDescription: |
                   Na ovom dijelu prikazan je popis prodajnih mjesta
                 coordinates:
-                  - id: "mcbpu4qq6nw3zo31c9f"
-                    x: 347
-                    y: 435
+                  - id: "mcoi0bo7d888mkq2zzd"
+                    x: 368
+                    y: 451
                     title: "Opcije prodajnog mjesta"
-                  - id: "mcbpueiurhsymm7d5k"
-                    x: 152
-                    y: 222
-                    title: "Oznaka i status prodajnog mjesta"
-                  - id: "mcbpuhcqlz2qmjtknsp"
-                    x: 91
-                    y: 325
-                    title: "Naziv i adresa prodajnog mjesta"
-              - id: "pregled-prijavljenih3"
-                title: "Pregled prijavljenih radnika"
-                imagePath: "https://manuallio.com/images/nautika/Pregled-radnika-dodavanje-min.png"
-                longDescription: |
-                  Klikom ili odabirom gumba (Oznaka 1) otvara se prečac putem kojeg je moguće dodijeliti zadatak odabranom radniku ili unijeti bilješku vezanu uz njegov rad. Ova funkcionalnost omogućuje brzu i efikasnu komunikaciju te praćenje zadataka i napomena unutar tima.
-                markup:
-                  - id: "markup-2"
-                    type: "circle"
-                    x: 950
-                    y: 1250
-                    width: undefined
-                    height: undefined
-                    label: "1"
+                  - id: "mcoi0ebv454icwg2ksa"
+                    x: 183
+                    y: 383
+                    title: "Status prodajnog mjesta"
           - id: "mcbpryvb3h1t2qs20xz"
-            name: "Blagajne"
+            name: "Blagajna"
             pages:
-              - id: "mcbpshkuqc1gbv6ak9"
-                title: "Blagajne"
-                imagePath: "https://i.ibb.co/GvRv0DNk/blagajne.png"
+              - id: "mcohodcxiw840212rtb"
+                title: "Napojnice"
+                imagePath: "https://i.ibb.co/7NKBbf4p/blagajna.png"
                 coordinates:
-                  - id: "mcbpsxwmf3gncna1iwb"
-                    x: 180
-                    y: 368
-                    title: "Status blagajne"
-                  - id: "mcbpt1e9xntalb6hab"
-                    x: 334
-                    y: 436
-                    title: "Opcije blagajne"
+                  - id: "mcohxfdtlt8ny7vhqc"
+                    x: 361
+                    y: 449
+                    title: "Opcije prodajnog mjesta"
+                  - id: "mcohxh7lfgu35erpewq"
+                    x: 188
+                    y: 360
+                    title: "Status prodajnog mjesta"
+                  - id: "mcohxkyzg46hkhyyob4"
+                    x: 283
+                    y: 318
+                    title: "Oznaka prodajnog mjesta"
+                  - id: "mcohxmyhmimn9os1g8e"
+                    x: 159
+                    y: 263
+                    title: "Adresa prodajnog mjesta"
       - id: "zadaci"
         name: "Izbornik"
         children:
@@ -182,7 +173,7 @@ categories:
             name: "Artikli"
             pages:
               - id: "popis-prijavljenih"
-                title: "Dodavanje zadataka"
+                title: "Dodavanje artikala"
                 imagePath: "https://manuallio.com/images/nautika/Zadaci-dodavanje-min.png"
                 longDescription: |
                   Izgled ekrana za dodavanje zadataka
@@ -205,40 +196,260 @@ categories:
                     text: |
                       "<p>Tip zadatka određuje način na koji korisnik može završiti zadatak:</p>
 
+              - id: "mcohq6xm97d7vhq04er"
+                title: "Normativi"
+              - id: "mcohqfgdsdbznzb4wyb"
+                title: "Dodatne mjerne jedinice"
           - id: "mcbs32ecwsn2jvnzmh"
             name: "Cjenik"
+            pages:
+              - id: "mcohowbcjnlm0ht8s4s"
+                title: "Dodavanje artikala na cjenik"
           - id: "mcbs4n1mvs4y3ei9wac"
             name: "Skladište"
+            pages:
+              - id: "mcohu38ho4x803vga2a"
+                title: "Skladišni artikli"
           - id: "mcbs4sxdh2dkcahbfbt"
             name: "Računi i ponude"
+            pages:
+              - id: "mcohumkwthcv2k70bxb"
+                title: "Filtriranje računa po statusu"
+              - id: "mcohvje5zvmz4m919xm"
+                title: "Pretraga računa po parametrima"
   - id: "mcbrxjtlf1guak6pcyu"
     name: "AiKasa mobile"
     children:
       - id: "mcbscip8gv2s60gxdgt"
         name: "Početna"
-        pages:
-          - id: "mcbscsagtdcfiwygnz"
-            title: "Početna"
-            imagePath: "https://i.ibb.co/qXQRZ7Q/pocetna-mobile.png"
-            coordinates:
-              - id: "mcbsdzfm3xl1pep2lmx"
-                x: 500
-                y: 540
+        children:
+          - id: "mcnihp53kwxqbzvmp1p"
+            name: "Početna stranica"
+            pages:
+              - id: "mcnik96pu1f607v8ohk"
+                title: "Početna"
+              - id: "mcnike5wpar2e3rbyz"
                 title: "Opcije firme"
-              - id: "mcbse174deq24ksyjv8"
-                x: 396
-                y: 538
-                title: "Cerfitikat"
-              - id: "mcbse3xvg7hny5elyaa"
-                x: 226
-                y: 439
-                title: "Ime i status firme"
-  - id: "mcnhv1fekm73t8vsor"
-    name: "Izbornik"
+          - id: "mcnii4ctfd5yh57he4v"
+            name: "Prodajna mjesta"
+            pages:
+              - id: "mcniif4gd2yer3tusae"
+                title: "Prodajno mjesto"
+              - id: "mcniktt93di3aw3buqv"
+                title: "Blagajne"
+          - id: "mcnillixsdmi0jf4nrd"
+            name: "Blagajne"
+            pages:
+              - id: "mcnilrqbm0canci4ncs"
+                title: "Blagajne"
+      - id: "mcnigxvzg82hp4auk57"
+        name: "Izbornik"
+        children:
+          - id: "mcnim6lpfj4e4pj8snn"
+            name: "Postavke"
+          - id: "mcnimd0amd6ng3rwxi"
+            name: "Artikli"
+          - id: "mcnin4oyis5x9dbfez"
+            name: "Cjenik"
+          - id: "mcninchfd7scbsjc9qv"
+            name: "Skladište"
+          - id: "mcniniqlrleqpt8hxia"
+            name: "Računi i ponude"
+  - id: "mfkv9ke4f9huo7b4bon"
+    name: "PDV"
     children:
-      - id: "mcnhxhto2f40hx51f0z"
-        name: "Postavke"
-      - id: "mcnhxvddo7cguug7r7"
-        name: "Artikli"
-      - id: "mcnhya2b9k28bo9f0e"
-        name: "Cjenik"
+      - id: "mfl4ee1wz5vmew3obph"
+        name: "Firme u sustavu PDV-a"
+        children:
+          - id: "mfl4f9qnrficmk23mkd"
+            name: "Postavke"
+      - id: "mfl4ewmdzpvu55n143"
+        name: "Ulazak u sustav PDV-a"
+        children:
+          - id: "mfl4fbnlwmgdwljo1zh"
+            name: "AiKasa za firme/obrte koji ulaze u sustav PDV-a"
+            pages:
+              - id: "mfl4ipmbtfsk9ahn9pq"
+                title: "Opcija "Postavke firme""
+                imagePath: "https://i.ibb.co/vxcFCLcv/postavke-firme.png"
+                longDescription: |
+                  <p><font color="#222222" face="Arial, Helvetica, sans-serif" size="2"><span style="white-space-collapse: collapse;">Na početnom ekranu AiKase, potrebno je izabrati opciju "Postavke firme" kako je i označeno na slici.</span></font></p>
+                coordinates:
+                  - id: "mfl4m7fixfcdakxai7k"
+                    x: 230
+                    y: 582
+                    title: "Postavke firme/obrta"
+                    text: |
+                      <p>Odabirom opcije "Postavke firme" otvara se prozor u kojem je moguće mjenjati postavke firme.</p>
+
+              - id: "mfl4nopzljirxj4ulj"
+                title: "Opcije firme"
+                imagePath: "https://i.ibb.co/Kp0dJBZH/sustav-pdva.png"
+                longDescription: |
+                  <p>Odabirom opcije "Postavke firme", otvara se prozor kao na slici.
+                  
+                  U tom prozor je potrebno označiti kvačicu "PDV", te upisati Vaš "PDV ID" broj.</p>
+                coordinates:
+                  - id: "mfl4ty5yeuqm9lf9k6"
+                    x: 1200
+                    y: 618
+                    title: "Firma je u sustavu PDV-a"
+                    text: |
+                      <p>Ukoliko je Vaša firma u sustavu PDV-a, tada je potrebno označiti polje.</p>
+
+                  - id: "mfl4v2iktgmye1fz5n"
+                    x: 325
+                    y: 521
+                    title: "Vrsta poreza"
+                    text: |
+                      <p>Ovdje je potrebno unijeti :  "PDV ID" od Vaše firme/obrta. </p>
+
+              - id: "mfl4zbjp69ym7ks2xxx"
+                title: "Odabir vrste poreza"
+                imagePath: "https://i.ibb.co/cK781zhP/odabit-vrste-poreza.png"
+                longDescription: |
+                  <p>U sljedećem screenshotu je prikaz odabira vrste PDV-a u kojem se Vaša firma/obrt nalazi.</p>
+                coordinates:
+                  - id: "mfl51abvhupid9hd5m"
+                    x: 25
+                    y: 642
+                    title: "Porez na dobit"
+                    text: |
+                      <p>Odaberite ovu opciju ukoliko se Vaša firma/obrt nalazi u Porezu na dobit.</p>
+
+                  - id: "mfl51g6rk10ki1qxtq"
+                    x: 25
+                    y: 710
+                    title: "Porez na dohodak"
+                    text: |
+                      <p>Odaberite ovu opciju ukoliko se Vaša firma/obrt nalazi u Porezu na dohodak.<br></p>
+
+              - id: "mfl5c9tqn4geag2o00f"
+                title: "Artikli u cjeniku"
+                imagePath: "https://i.ibb.co/h1n7R7rL/cijenik-primjer.png"
+                longDescription: |
+                  <p><span style="color: rgb(34, 34, 34); font-family: Arial, Helvetica, sans-serif; font-size: small; white-space-collapse: collapse;">U cjeniku je prikaz svih artikala s cijenom te odgovarajućim iznos (%) PDV-a.</span><br></p>
+                coordinates:
+                  - id: "mfl74enu4297tv07feo"
+                    x: 298
+                    y: 654
+                    title: "Cjenik"
+                    text: |
+                      <p><span style="color: rgb(34, 34, 34); font-family: Arial, Helvetica, sans-serif; font-size: small; white-space-collapse: collapse;">U cjeniku svim artiklima dodati odgovarajući iznos (%) PDV-a, uz izmjenu pripadajuće cijene sa PDV-om za svaki artikl.</span><br></p>
+
+              - id: "mfl76u96j8knlbshji"
+                title: "Izmjena/dodavanje cijene i PDV-a na artikle."
+                imagePath: "https://i.ibb.co/TBLLMTJm/opcije-artikla-cijenik.png"
+                longDescription: |
+                  <p><span style="color: rgb(34, 34, 34); font-family: Arial, Helvetica, sans-serif; font-size: small; white-space-collapse: collapse;">Klikom na gumb (olovku) opcije - otvara Vam se prozor u kojem je moguće definirati iznos PDV-a te cijene artikala.</span><br></p>
+                coordinates:
+                  - id: "mfl79xd5vrxymk2ssu"
+                    x: 1643
+                    y: 278
+                    title: "Opcije artikla"
+                    text: |
+                      <p>Odabirom opcije artikla, otvara se prozor u kojem ćemo moći odrediti cijenu te PDV za pojedini artikl.</p>
+
+              - id: "mfl7bcnejr1wqu93h9"
+                title: "Definiranje cijene i PDV-a za pojedini Artikl"
+                imagePath: "https://i.ibb.co/4cktwtf/odabir-pdv-cijenik.png"
+                longDescription: |
+                  <p>Ovdje je moguće definiranje cijene i PDV-a za pojedini Artikl.</p>
+                coordinates:
+                  - id: "mfl7cnii534b4mxsl1t"
+                    x: 277
+                    y: 272
+                    title: "Definiranje cijene za pojedini Artikl"
+                    text: |
+                      <p>Ovdje definiramo cijenu artikla.</p>
+
+                  - id: "mfl7cpe308gvwua0zc1d"
+                    x: 330
+                    y: 560
+                    title: "Definiranje PDV-a za pojedini Artikl"
+                    text: |
+                      <p>Ovdje definiramo PDV artikla.<br></p>
+
+              - id: "mfl8gm9razkgwbqet76"
+                title: "Opcije artikla - Spremi"
+                imagePath: "https://i.ibb.co/wvM0K8X/izmjena-cijene-artikla.png"
+                longDescription: |
+                  Nakon što smo odredili cijenu arikla te odredili visinu PDV-a za artikl, potrebno je stisnuti gumb "Spremi"
+                coordinates:
+                  - id: "mfl8k90yn8nr5i4p3jo"
+                    x: 32
+                    y: 183
+                    title: "Odabir artikla sa skladišta"
+                    text: |
+                      <p>Ovdje odabiremo artikl koji želimo editirati.</p>
+
+                  - id: "mfl8kacgl9ot4k7g54l"
+                    x: 451
+                    y: 185
+                    title: "Artikl - aktivan ili neaktivan"
+                    text: |
+                      <p>U ovoj opciji je moguće odabrati: "Artikl - aktivan ili neaktivan"
+                      
+                      Neaktivni artikli se neće prikazivati u cjeniku i blagajni. </p>
+
+                  - id: "mfl8kcqkvg1dpv5jlbd"
+                    x: 29
+                    y: 326
+                    title: "Opcija upisa cijene u blagajni"
+                    text: |
+                      <p>Ako je ova opcija uključena, tada će prilikom svakog izdavanja računa biti potrebno odrediti cijenu artikla. 
+                      Ukoliko je opcija isključena, tada će važiti dolje definirana cijena za artikl.</p>
+
+                  - id: "mfl8kfjhcl6afjjukhu"
+                    x: 27
+                    y: 432
+                    title: "Odabit kategorije artikla"
+                    text: |
+                      <p>Moguće je i dodati novu kategoriju pritiskom na gumb: "dodaj kategoriju"</p>
+
+                  - id: "mfl8kj3a9mcr87cgrnt"
+                    x: 26
+                    y: 580
+                    title: "Definiranje cijene artikla"
+                    text: |
+                      <p>Ovdje definiramo cijenu i PDV za pojedini artikl.</p>
+
+                  - id: "mfl8klam7cau633n71t"
+                    x: 424
+                    y: 750
+                    title: "Spremi"
+                    text: |
+                      <p>Nakon odabire opcije "Spremi" - spremamo postavke koje smo odredili.</p>
+
+      - id: "mfl9hzhxerx9jqiaqcb"
+        name: "Izlaz iz sustava PDV-a"
+        children:
+          - id: "mfl9iadyuk2y4h77w2l"
+            name: "Firme/obrti koji izlaze u sustav PDV-a"
+            pages:
+              - id: "mfl9jkq21v5h3t6zsq9"
+                title: "Opcija "Postavke firme""
+                content: |
+                  <p><span style="color: rgb(34, 34, 34); font-family: Arial, Helvetica, sans-serif; font-size: small; white-space-collapse: collapse;">Na početnom ekranu AiKase, potrebno je izabrati opciju "Postavke firme" kako je i označeno na slici.</span><br></p>
+              - id: "mfl9jwpy50cht85v32h"
+                title: "Opcije firme"
+                content: |
+                  <p>Odabirom opcije "Postavke firme", otvara se prozor kao na slici.
+                  
+                  U tom prozor je potrebno odznačiti kvačicu "PDV", te obrisati Vaš "PDV ID" broj.<br></p>
+              - id: "mfl9l0cs2bpesxwkwht"
+                title: "Artikli u cjeniku"
+                content: |
+                  <p><span style="color: rgb(34, 34, 34); font-family: Arial, Helvetica, sans-serif; font-size: small; white-space-collapse: collapse;">U cjeniku je prikaz svih artikala s cijenom te odgovarajućim iznos (%) PDV-a.</span><br></p>
+              - id: "mfl9lwl3yc5bv9dln8d"
+                title: "Izmjena cijene i brisanje PDV-a za artikle."
+                content: |
+                  <p><span style="color: rgb(34, 34, 34); font-family: Arial, Helvetica, sans-serif; font-size: small; white-space-collapse: collapse;">Brisanje odgovarajućeg iznosa (%) PDV-a, uz izmjenu pripadajuće cijene sa PDV-om za svaki artikl.</span><br></p>
+              - id: "mfl9n1ef3pkcu2rs4cl"
+                title: "Definiranje cijene i PDV-a za pojedini Artikl"
+                content: |
+                  <p>Ovdje definirate cijenu bez PDV-a za svaki pojedini Artikl.<br></p>
+              - id: "mfl9nt3q47ttx7q6jzf"
+                title: "Opcije artikla - Spremi"
+                content: |
+                  <p>Nakon što smo odredili cijenu arikla bez PDV-a, potrebno je stisnuti gumb "Spremi"<br></p>
