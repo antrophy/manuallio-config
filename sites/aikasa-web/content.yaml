@@ -100,6 +100,13 @@ categories:
         pages:
           - id: "mh1w3veudsua669iur"
             title: "Uređivanje firme"
+      - id: "mh1xb0rj4ah2cjej3fo"
+        name: "Certifikat za fiskalizaciju"
+        pages:
+          - id: "mh1xc9aryvm5e504ebi"
+            title: "Dodavanje"
+            content: |
+              <p>Dodavanje</p>
   - id: "mh1vzl1hbm9i5q365bu"
     name: "Prodajno mjesto"
     children:
