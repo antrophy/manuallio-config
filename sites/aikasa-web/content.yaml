@@ -25,36 +25,58 @@ categories:
         pages:
           - id: "popis-prijavljenih"
             title: "Pregled"
-            imagePath: "https://i.ibb.co/JFBqBr1Y/moje-firme.png"
+            imagePath: "https://i.ibb.co/SDWwV0rk/WEB-pregled-firmi.png"
             longDescription: |
               Pregled svih registriranih firmi za korisnički račun. Korisnik može imati neograničen broj firmi.
             coordinates:
               - id: "mh1qe4r97vr12jkgb6u"
-                x: 1051
-                y: 561
+                x: 1209
+                y: 643
                 title: "Firma/obrt broj 1"
+                text: |
+                      <p>Ime firme/obrta,
+                      prikaz statusa firme/obrta,
+                      status certifikata,
+                      gumb za dodatne opcije firme</p>
+
               - id: "mh1qe78hr5vwi78o8ah"
-                x: 1511
-                y: 561
+                x: 1738
+                y: 640
                 title: "Firma/obrt broj 2"
+                text: |
+                      <p>Ime firme/obrta,
+                      prikaz statusa firme/obrta,
+                      status certifikata,
+                      gumb za dodatne opcije firme</p>
+
               - id: "mh1qexh3jakykta1dp"
-                x: 2299
-                y: 47
+                x: 2236
+                y: 53
                 title: "Dodaj firmu"
                 text: |
                       <p>Gumb za dodavanje nove firme/obrta</p>
 
               - id: "mh1qfa29cjq2wtry9i4"
-                x: 2660
-                y: 101
+                x: 2638
+                y: 133
                 title: "Uključi/Isključi ekransku tipkovnicu"
                 text: |
                       <p>Odabirom ove opcije, uključujete/isključujete ekransku opciju AiKase</p>
 
               - id: "mh1qjalsdes8et8l7ou"
                 x: 2790
-                y: 90
+                y: 98
                 title: "Račun, verzija aplikacije, pretraži firme/obrte"
+                text: |
+                      <li data-start="105" data-end="191"><p data-start="108" data-end="191"><strong data-start="108" data-end="117">Račun</strong> – Kliknite ovaj gumb za pregled zdanih računa unutar aplikacije.</p></li><li data-start="192" data-end="283"><p data-start="195" data-end="283"><strong data-start="195" data-end="217">Verzija aplikacije</strong> – Kliknite kako biste provjerili trenutačnu verziju aplikacije.</p></li><li data-start="284" data-end="398"><p data-start="287" data-end="398"><strong data-start="287" data-end="311">Pretraži firme/obrte</strong> – Kliknite ovaj gumb za otvaranje pretrage i pronalaženje firme ili obrta u sustavu.</p></li>
+
+              - id: "mh3f6i402dxul0795ca"
+                x: 47
+                y: 320
+                title: "Odjavi se"
+                text: |
+                      <p>Gumb za odjavljivanje iz AiKase.</p>
+
       - id: "mh1w385bs1ni0vdix6"
         name: "Dodavanje"
         children:
@@ -63,38 +85,168 @@ categories:
             pages:
               - id: "mh1wqaa3mqaomxte7s"
                 title: "Osnovni podaci"
-                content: |
-                  <p>Osnovni podaci</p><p><br></p>
+                imagePath: "https://i.ibb.co/fdhxJJGz/WEB-osnovni-podatci.png"
+                coordinates:
+                  - id: "mh1z8mtkp4udon7oeg"
+                    x: 361
+                    y: 284
+                    title: "Naziv firme/obrta"
+                    text: |
+                      <p data-start="53" data-end="91"><strong data-start="53" data-end="89">Upute za unos imena firme/obrta:</strong></p><ol data-start="93" data-end="254"><li data-start="93" data-end="145"><p data-start="96" data-end="145"><span style="font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif;">U predviđeno polje upišite </span><strong data-start="176" data-end="199" style="font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif;">ime firme ili obrta</strong><span style="font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif;">.</span></p></li><li data-start="203" data-end="254"><p data-start="206" data-end="254">Provjerite da je unos ispravan prije nastavka.</p></li></ol>
+
+                  - id: "mh1z922kyeusjpkzars"
+                    x: 1106
+                    y: 286
+                    title: "OIB firme/obrta"
+                    text: |
+                      <p data-start="53" data-end="91"><strong data-start="53" data-end="89">Upute za unos OIBa firme/obrta</strong></p><ol data-start="93" data-end="254"><li data-start="93" data-end="145"><p data-start="96" data-end="145"><span style="font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif;">U predviđeno polje upišite </span><b>OIB firme/obrta</b></p></li><li data-start="203" data-end="254"><p data-start="206" data-end="254">Provjerite da je unos ispravan prije nastavka.</p></li></ol>
+
+                  - id: "mh1z9dgw3f38sq9ar09"
+                    x: 834
+                    y: 407
+                    title: "Adresa, grad, poštanski broj"
+                    text: |
+                      <li data-start="95" data-end="147"><p data-start="98" data-end="147"><span style="font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif;">U odgovarajuća polja upišite:</span></p></li><li data-start="148" data-end="254"><ul data-start="186" data-end="254"><li data-start="186" data-end="212"><p data-start="188" data-end="212"><strong data-start="188" data-end="198">Adresu</strong> firme/obrta</p></li><li data-start="216" data-end="228"><p data-start="218" data-end="228"><strong data-start="218" data-end="226">Grad</strong></p></li><li data-start="232" data-end="254"><p data-start="234" data-end="254"><strong data-start="234" data-end="252">Poštanski broj</strong></p></li></ul></li><p><span style="font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif;">Provjerite ispravnost unosa prije nastavka.</span></p>
+
+                  - id: "mh20c2ziafsdgest3nb"
+                    x: 875
+                    y: 691
+                    title: "Odabir poreznih postavki"
+                    text: |
+                      <p data-start="88" data-end="137"><strong data-start="88" data-end="135">Upute za odabir PDV statusa i vrste poreza:</strong></p><p>
+                      </p><ol data-start="139" data-end="436"><li data-start="139" data-end="207"><p data-start="142" data-end="207">Otvorite prozor u kojem se definira PDV status firme ili obrta.</p></li>
+                      <li data-start="208" data-end="327"><p data-start="211" data-end="243">Odaberite odgovarajuću opciju:</p><ul data-start="247" data-end="327">
+                      <li data-start="247" data-end="284"><p data-start="249" data-end="284"><strong data-start="249" data-end="282">Firma/obrt je u sustavu PDV-a</strong></p></li>
+                      <li data-start="288" data-end="327"><p data-start="290" data-end="327"><strong data-start="290" data-end="325">Firma/obrt nije u sustavu PDV-a</strong></p></li></ul></li>
+                      <li data-start="328" data-end="436"><p data-start="331" data-end="382">Zatim odaberite vrstu poreza koja se primjenjuje:</p><ul data-start="386" data-end="436"><li data-start="386" data-end="408"><p data-start="388" data-end="408"><strong data-start="388" data-end="406">Porez na dobit</strong></p></li><li data-start="412" data-end="436"><p data-start="414" data-end="436"><strong data-start="414" data-end="434">Porez na dohodak</strong></p></li></ul></li></ol>
+
           - id: "mh1wrzsuqakf44ujwr"
             name: "Banka"
             pages:
               - id: "mh1ws56deewn8o3ihs"
                 title: "Banka"
-                shortDescription: "m,m"
-                content: |
-                  <p>mm</p>
+                imagePath: "https://i.ibb.co/B2N53HTY/WEB-banka-postavke-firme.png"
+                coordinates:
+                  - id: "mh3gcgo8goxd0y64i36"
+                    x: 1521
+                    y: 290
+                    title: "Dodaj IBAN"
+                    text: |
+                      <li data-start="167" data-end="230"><p data-start="170" data-end="230">Kliknite na gumb kako biste otvorili polje za unos <strong>IBAN</strong>-a.</p></li><li data-start="231" data-end="274"><p data-start="234" data-end="274">Unesite ispravan <strong>IBAN</strong> i spremite unos.</p></li>
+
+                  - id: "mh3gcia9duco9b7j3r8"
+                    x: 1533
+                    y: 420
+                    title: "Editiraj/obriši"
+                    text: |
+                      <li data-start="168" data-end="252"><p data-start="171" data-end="252">Za <strong data-start="174" data-end="195">uređivanje IBAN-a</strong>, kliknite gumb <strong data-start="211" data-end="222">„Uredi“</strong> pored odgovarajućeg IBAN-a.</p></li><li data-start="253" data-end="336"><p data-start="256" data-end="336">Za <strong data-start="259" data-end="278">brisanje IBAN-a</strong>, kliknite gumb <strong data-start="294" data-end="306">„Obriši“</strong> pored odgovarajućeg IBAN-a.</p></li><li data-start="337" data-end="419"><p data-start="340" data-end="419">Potvrdite promjenu ili brisanje, kako bi se akcija izvršila.</p></li>
+
+                  - id: "mh3gcriu8khcciwha5j"
+                    x: 1516
+                    y: 772
+                    title: "Spremi"
+                    text: |
+                      <li data-start="94" data-end="182"><p data-start="97" data-end="182">Nakon što unesete ili izmijenite sve željene postavke, pritisnite gumb <strong data-start="167" data-end="179">„Spremi“</strong>.</p></li><li data-start="183" data-end="256"><p data-start="186" data-end="256">Kliknite gumb <strong data-start="200" data-end="212">„Spremi“</strong> kako biste sačuvali sve unesene promjene.</p></li>
+
               - id: "mh1wwhxawonwlqp9ruq"
-                title: "NEsto drugo"
-                content: |
-                  <p>fdsafsad</p>
+                title: "Dodavanje IBAN-a"
+                imagePath: "https://i.ibb.co/F4kN5rvm/WEB-dodavanje-ibana.png"
+                coordinates:
+                  - id: "mh3gjc5pxcuygyyuzk9"
+                    x: 603
+                    y: 199
+                    title: "Upute za dodavanje IBAN-a"
+                    text: |
+                      <li data-start="108" data-end="158"><p data-start="111" data-end="158">U predviđeno polje upišite <strong data-start="138" data-end="155">ispravan IBAN</strong>.</p></li><li data-start="159" data-end="264"><p data-start="162" data-end="264">Nakon unosa, aplikacija će <strong data-start="189" data-end="219">automatski prepoznati IBAN</strong> i popuniti ostale pripadajuće vrijednosti.</p></li><li data-start="265" data-end="312"><p data-start="268" data-end="312">Provjerite unesene podatke prije nastavka.</p></li>
+
+                  - id: "mh3gjkondqbihyzm3xo"
+                    x: 1161
+                    y: 843
+                    title: "Spremanje IBAN-a"
+                    text: |
+                      <li data-start="100" data-end="180"><p data-start="103" data-end="180">Nakon što ste unijeli ili izmijenili postavke, pronađite gumb <strong data-start="165" data-end="177">„Spremi“</strong>.</p></li><li data-start="181" data-end="266"><p data-start="184" data-end="266">Kliknite na gumb <strong data-start="201" data-end="213">„Spremi“</strong> kako biste sačuvali sve prethodno unesene podatke.</p></li>
+
           - id: "mh1x0ioa5a0dvlto74"
             name: "Logo"
             pages:
               - id: "mh1x0pb5ymhvaaiv4do"
-                title: "fdsa"
-                content: |
-                  <p>fdsa</p>
+                title: "Logo"
+                imagePath: "https://i.ibb.co/Q7M7PKYZ/WEB-logo-postavke-firme.png"
+                coordinates:
+                  - id: "mh3gr9q1c4yxi3m4ijf"
+                    x: 884
+                    y: 418
+                    title: "Logo"
+                    text: |
+                      <li data-start="101" data-end="165"><p data-start="104" data-end="165">Pritiskom na gumb otvara se novi prozor.</p></li><li data-start="166" data-end="248"><p data-start="169" data-end="248">U otvorenom prozoru odaberite <strong data-start="199" data-end="228">logo vaše firme ili obrta</strong> sa svog računala.</p></li><li data-start="249" data-end="300"><p data-start="252" data-end="300">Potvrdite odabir kako bi odabrani logo bio učitan.</p></li>
+
+                  - id: "mh3grl4czmj9vk8996f"
+                    x: 1537
+                    y: 803
+                    title: "Spremi Logo"
+                    text: |
+                      <li data-start="100" data-end="180"><p data-start="103" data-end="180">Nakon što ste unijeli ili izmijenili postavke, pronađite gumb <strong data-start="165" data-end="177">„Spremi“</strong>.</p></li><li data-start="181" data-end="266"><p data-start="184" data-end="266">Kliknite na gumb <strong data-start="201" data-end="213">„Spremi“</strong> kako biste sačuvali sve prethodno unesene podatke.</p></li>
+
           - id: "mh1x14oa6vn0k4it8is"
             name: "Poslovni podaci"
             pages:
               - id: "mh1x1d4jx0aym2kvmug"
                 title: "Poslovni podaci"
-                content: |
-                  <p>da</p>
+                imagePath: "https://i.ibb.co/nqNxPkbM/WEB-poslovni-podatci-postavke-firme.png"
+                coordinates:
+                  - id: "mh3gy8yuppnbgvq20j"
+                    x: 318
+                    y: 323
+                    title: "MBS- Matični broj subjekta"
+                    text: |
+                      <li data-start="96" data-end="151"><p data-start="99" data-end="151"><span style="font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif;">U predviđeno polje upišite </span><strong data-start="182" data-end="222" style="font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif;">ispravan MBS (matični broj subjekta)</strong><span style="font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif;">.</span></p></li><li data-start="226" data-end="271"><p data-start="229" data-end="271">Provjerite točnost unosa prije nastavka.</p></li>
+
+                  - id: "mh3gyanaghjyv4nwdo"
+                    x: 1106
+                    y: 323
+                    title: "Temeljni kapital"
+                    text: |
+                      <li data-start="96" data-end="151"><p data-start="99" data-end="151"><span style="font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif;">U predviđeno polje upišite <b>temeljni kapital</b></span></p></li><li data-start="226" data-end="271"><p data-start="229" data-end="271">Provjerite točnost unosa prije nastavka.</p></li>
+
+                  - id: "mh3h463wrzpflhqfxx"
+                    x: 1526
+                    y: 324
+                    title: "Odabir valute"
+                    text: |
+                      <li data-start="96" data-end="151"><p data-start="99" data-end="151"><span style="font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif;">U padajućem izborniku odaberite željenu <b>valutu</b></span></p></li><li data-start="226" data-end="271"><p data-start="229" data-end="271">Provjerite točnost unosa prije nastavka.</p></li>
+
+                  - id: "mh3h47ysxo4kh1cj61"
+                    x: 456
+                    y: 406
+                    title: "Odabir trgovačkog suda"
+                    text: |
+                      <li data-start="96" data-end="151"><p data-start="99" data-end="151"><span style="font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif;">U padajućem izborniku odaberite <b>trgovački sud.</b></span></p></li><li data-start="226" data-end="271"><p data-start="229" data-end="271">Provjerite točnost unosa prije nastavka.</p></li>
+
+                  - id: "mh3h4d263lzbfoxfmq"
+                    x: 1559
+                    y: 461
+                    title: "Dodaj člana uprave"
+                    text: |
+                      <li data-start="96" data-end="151"><p data-start="99" data-end="151"><span style="font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif;">U predviđeno polje d</span>odajte <strong>člana/članove uprave</strong>.</p></li><li data-start="226" data-end="271"><p data-start="229" data-end="271">Provjerite točnost unosa prije nastavka.</p></li>
+
               - id: "mh1x1epase8quum8d29"
-                title: "Članovi društva"
-                content: |
-                  <p>resg</p>
+                title: "Dodaj člana/članove uprave"
+                imagePath: "https://i.ibb.co/fGzg62XB/WEB-dodaj-clana-uprave-postavke-firme.png"
+                coordinates:
+                  - id: "mh3haz00lkqb21f708f"
+                    x: 696
+                    y: 189
+                    title: "Dodaj člana/članove uprave"
+                    text: |
+                      <li data-start="84" data-end="139"><p data-start="87" data-end="139"><span style="font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif;">U predviđeno polje upišite </span><strong data-start="170" data-end="200" style="font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif;">ime i prezime člana uprave</strong><span style="font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif;">.</span></p></li><li data-start="204" data-end="249"><p data-start="207" data-end="249">Provjerite točnost unosa prije nastavka.</p></li>
+
+                  - id: "mh3hb3zr6cwoc4f6i8q"
+                    x: 745
+                    y: 397
+                    title: "Dodaj člana/članove uprave"
+                    text: |
+                      <li data-start="88" data-end="167"><p data-start="91" data-end="167"><span style="font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif;">Klikom na padajući izbornik "<strong>D</strong></span><strong style="font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif;">irektor"</strong><span style="font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif;"> odaberite odgovarajuću opciju:</span></p></li><li data-start="168" data-end="267"><ul data-start="226" data-end="267"><li data-start="226" data-end="242"><p data-start="228" data-end="242"><strong data-start="228" data-end="240">DA</strong></p></li><li data-start="246" data-end="267"><p data-start="248" data-end="267"><strong data-start="248" data-end="265">NE</strong></p></li></ul></li><li data-start="268" data-end="315"><p data-start="271" data-end="315">Odabranu opciju provjerite prije nastavka.</p></li>
+
       - id: "mh1w3ns9fy421jh3u3g"
         name: "Uređivanje"
         pages:
@@ -104,9 +256,43 @@ categories:
         name: "Certifikat za fiskalizaciju"
         pages:
           - id: "mh1xc9aryvm5e504ebi"
-            title: "Dodavanje"
-            content: |
-              <p>Dodavanje</p>
+            title: "Dodavanje certifikata za fiskalizaciju"
+            imagePath: "https://i.ibb.co/PzjZ4p7m/WEB-certifikat-upload.png"
+            coordinates:
+              - id: "mh3hmc4a9zf6yt73r98"
+                x: 1751
+                y: 630
+                title: "Certifikat za fiskalizaciju"
+                text: |
+                      <li data-start="121" data-end="281"><p data-start="124" data-end="172">Boja ikonice prikazuje status certifikata:</p><ul data-start="176" data-end="281"><li data-start="176" data-end="222"><p data-start="178" data-end="222"><strong data-start="178" data-end="188">Zeleno</strong> – Certifikat je uspješno učitan</p></li><li data-start="226" data-end="281"><p data-start="228" data-end="281"><strong data-start="228" data-end="238">Crveno</strong> – Certifikat za fiskalizaciju nije dodan
+                      
+                      </p></li></ul></li><li data-start="282" data-end="354"><p data-start="285" data-end="354">Pritiskom na ikonu otvara se <strong data-start="314" data-end="351">novi prozor za upload certifikata</strong>.</p></li>
+
+          - id: "mh3hytd85dcuani1w8a"
+            title: "Upload certifikata"
+            imagePath: "https://i.ibb.co/3YvZCYpC/WEB-certifikat-ucitavanje.png"
+            coordinates:
+              - id: "mh3hzxmbeeols2dox45"
+                x: 1414
+                y: 722
+                title: "Upload certifikata"
+                text: |
+                      <li data-start="81" data-end="153"><p data-start="84" data-end="153">Pritiskom na ikonu otvara se <strong data-start="113" data-end="150">novi prozor za upload certifikata</strong>.</p></li><li data-start="154" data-end="234"><p data-start="157" data-end="234">U otvorenom prozoru odaberite <strong data-start="187" data-end="214">odgovarajući certifikat</strong> sa svog računala.</p></li>
+
+              - id: "mh3i00k602617v9wsfrq"
+                x: 1637
+                y: 888
+                title: "Unos lozinke p12 certifikata "
+                text: |
+                      <li data-start="103" data-end="176"><p data-start="106" data-end="176"><span style="font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif;">Upišite </span><strong data-start="188" data-end="220" style="font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif;">ispravnu lozinku certifikata</strong><span style="font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif;">.</span></p></li><li data-start="224" data-end="312"><p data-start="227" data-end="312">Provjerite točnost unosa prije potvrđivanja kako bi certifikat bio uspješno učitan.</p></li>
+
+              - id: "mh3i68r5cuxnltuaj2i"
+                x: 1244
+                y: 1046
+                title: "Upload certifikata"
+                text: |
+                      <li data-start="93" data-end="195"><p data-start="96" data-end="195">Kliknite gumb <strong data-start="110" data-end="134">„Dodaj certifikat“</strong> kako biste odabrali i učitali certifikat sa svog računala.</p></li><li data-start="196" data-end="280"><p data-start="199" data-end="280">Nakon učitanja certifikata, unesite <strong data-start="235" data-end="258">lozinku certifikata</strong> u predviđeno polje.</p></li><li data-start="281" data-end="377"><p data-start="284" data-end="377">Pritiskom na gumb <strong data-start="302" data-end="323">„Dodaj Certifikat“</strong> sačuvajte sve unesene podatke i učitani certifikat.</p></li>
+
   - id: "mh1vzl1hbm9i5q365bu"
     name: "Prodajno mjesto"
     children:
@@ -770,3 +956,5 @@ categories:
                 title: "Opcije artikla - Spremi"
                 content: |
                   <p>Nakon što smo odredili cijenu arikla bez PDV-a, potrebno je stisnuti gumb "Spremi"<br></p>
+  - id: "mh20bqsckzyaw53sec"
+    name: "New Category"
