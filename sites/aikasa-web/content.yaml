@@ -29,54 +29,10 @@ categories:
             longDescription: |
               Pregled svih registriranih firmi za korisnički račun. Korisnik može imati neograničen broj firmi.
             coordinates:
-              - id: "mh1qe4r97vr12jkgb6u"
-                x: 1209
-                y: 643
-                title: "Firma/obrt broj 1"
-                text: |
-                      <p>Ime firme/obrta,
-                      prikaz statusa firme/obrta,
-                      status certifikata,
-                      gumb za dodatne opcije firme</p>
-
-              - id: "mh1qe78hr5vwi78o8ah"
-                x: 1738
-                y: 640
-                title: "Firma/obrt broj 2"
-                text: |
-                      <p>Ime firme/obrta,
-                      prikaz statusa firme/obrta,
-                      status certifikata,
-                      gumb za dodatne opcije firme</p>
-
-              - id: "mh1qexh3jakykta1dp"
-                x: 2236
-                y: 53
-                title: "Dodaj firmu"
-                text: |
-                      <p>Gumb za dodavanje nove firme/obrta</p>
-
-              - id: "mh1qfa29cjq2wtry9i4"
-                x: 2638
-                y: 133
-                title: "Uključi/Isključi ekransku tipkovnicu"
-                text: |
-                      <p>Odabirom ove opcije, uključujete/isključujete ekransku opciju AiKase</p>
-
-              - id: "mh1qjalsdes8et8l7ou"
-                x: 2790
-                y: 98
-                title: "Račun, verzija aplikacije, pretraži firme/obrte"
-                text: |
-                      <li data-start="105" data-end="191"><p data-start="108" data-end="191"><strong data-start="108" data-end="117">Račun</strong> – Kliknite ovaj gumb za pregled zdanih računa unutar aplikacije.</p></li><li data-start="192" data-end="283"><p data-start="195" data-end="283"><strong data-start="195" data-end="217">Verzija aplikacije</strong> – Kliknite kako biste provjerili trenutačnu verziju aplikacije.</p></li><li data-start="284" data-end="398"><p data-start="287" data-end="398"><strong data-start="287" data-end="311">Pretraži firme/obrte</strong> – Kliknite ovaj gumb za otvaranje pretrage i pronalaženje firme ili obrta u sustavu.</p></li>
-
-              - id: "mh3f6i402dxul0795ca"
-                x: 47
+              - id: "mh3k0vh7nta6h5vt83g"
+                x: 49
                 y: 320
-                title: "Odjavi se"
-                text: |
-                      <p>Gumb za odjavljivanje iz AiKase.</p>
-
+                title: "Gumb za logout iz AiKase"
       - id: "mh1w385bs1ni0vdix6"
         name: "Dodavanje"
         children:
@@ -85,69 +41,17 @@ categories:
             pages:
               - id: "mh1wqaa3mqaomxte7s"
                 title: "Osnovni podaci"
-                imagePath: "https://i.ibb.co/fdhxJJGz/WEB-osnovni-podatci.png"
-                coordinates:
-                  - id: "mh1z8mtkp4udon7oeg"
-                    x: 361
-                    y: 284
-                    title: "Naziv firme/obrta"
-                    text: |
-                      <p data-start="53" data-end="91"><strong data-start="53" data-end="89">Upute za unos imena firme/obrta:</strong></p><ol data-start="93" data-end="254"><li data-start="93" data-end="145"><p data-start="96" data-end="145"><span style="font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif;">U predviđeno polje upišite </span><strong data-start="176" data-end="199" style="font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif;">ime firme ili obrta</strong><span style="font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif;">.</span></p></li><li data-start="203" data-end="254"><p data-start="206" data-end="254">Provjerite da je unos ispravan prije nastavka.</p></li></ol>
-
-                  - id: "mh1z922kyeusjpkzars"
-                    x: 1106
-                    y: 286
-                    title: "OIB firme/obrta"
-                    text: |
-                      <p data-start="53" data-end="91"><strong data-start="53" data-end="89">Upute za unos OIBa firme/obrta</strong></p><ol data-start="93" data-end="254"><li data-start="93" data-end="145"><p data-start="96" data-end="145"><span style="font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif;">U predviđeno polje upišite </span><b>OIB firme/obrta</b></p></li><li data-start="203" data-end="254"><p data-start="206" data-end="254">Provjerite da je unos ispravan prije nastavka.</p></li></ol>
-
-                  - id: "mh1z9dgw3f38sq9ar09"
-                    x: 834
-                    y: 407
-                    title: "Adresa, grad, poštanski broj"
-                    text: |
-                      <li data-start="95" data-end="147"><p data-start="98" data-end="147"><span style="font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif;">U odgovarajuća polja upišite:</span></p></li><li data-start="148" data-end="254"><ul data-start="186" data-end="254"><li data-start="186" data-end="212"><p data-start="188" data-end="212"><strong data-start="188" data-end="198">Adresu</strong> firme/obrta</p></li><li data-start="216" data-end="228"><p data-start="218" data-end="228"><strong data-start="218" data-end="226">Grad</strong></p></li><li data-start="232" data-end="254"><p data-start="234" data-end="254"><strong data-start="234" data-end="252">Poštanski broj</strong></p></li></ul></li><p><span style="font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif;">Provjerite ispravnost unosa prije nastavka.</span></p>
-
-                  - id: "mh20c2ziafsdgest3nb"
-                    x: 875
-                    y: 691
-                    title: "Odabir poreznih postavki"
-                    text: |
-                      <p data-start="88" data-end="137"><strong data-start="88" data-end="135">Upute za odabir PDV statusa i vrste poreza:</strong></p><p>
-                      </p><ol data-start="139" data-end="436"><li data-start="139" data-end="207"><p data-start="142" data-end="207">Otvorite prozor u kojem se definira PDV status firme ili obrta.</p></li>
-                      <li data-start="208" data-end="327"><p data-start="211" data-end="243">Odaberite odgovarajuću opciju:</p><ul data-start="247" data-end="327">
-                      <li data-start="247" data-end="284"><p data-start="249" data-end="284"><strong data-start="249" data-end="282">Firma/obrt je u sustavu PDV-a</strong></p></li>
-                      <li data-start="288" data-end="327"><p data-start="290" data-end="327"><strong data-start="290" data-end="325">Firma/obrt nije u sustavu PDV-a</strong></p></li></ul></li>
-                      <li data-start="328" data-end="436"><p data-start="331" data-end="382">Zatim odaberite vrstu poreza koja se primjenjuje:</p><ul data-start="386" data-end="436"><li data-start="386" data-end="408"><p data-start="388" data-end="408"><strong data-start="388" data-end="406">Porez na dobit</strong></p></li><li data-start="412" data-end="436"><p data-start="414" data-end="436"><strong data-start="414" data-end="434">Porez na dohodak</strong></p></li></ul></li></ol>
-
+                imagePath: "https://i.ibb.co/Gfq0sbGt/WEB-osnovni-podatci.png"
+                longDescription: |
+                  <ol data-start="93" data-end="254"><li data-start="93" data-end="145"><p data-start="96" data-end="145"><span style="font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif;">U predviđeno polje upišite </span><strong data-start="176" data-end="199" style="font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif;">ime firme ili obrta</strong><span style="font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif;">.</span></p></li></ol>
           - id: "mh1wrzsuqakf44ujwr"
             name: "Banka"
             pages:
               - id: "mh1ws56deewn8o3ihs"
                 title: "Banka"
-                imagePath: "https://i.ibb.co/B2N53HTY/WEB-banka-postavke-firme.png"
-                coordinates:
-                  - id: "mh3gcgo8goxd0y64i36"
-                    x: 1521
-                    y: 290
-                    title: "Dodaj IBAN"
-                    text: |
-                      <li data-start="167" data-end="230"><p data-start="170" data-end="230">Kliknite na gumb kako biste otvorili polje za unos <strong>IBAN</strong>-a.</p></li><li data-start="231" data-end="274"><p data-start="234" data-end="274">Unesite ispravan <strong>IBAN</strong> i spremite unos.</p></li>
-
-                  - id: "mh3gcia9duco9b7j3r8"
-                    x: 1533
-                    y: 420
-                    title: "Editiraj/obriši"
-                    text: |
-                      <li data-start="168" data-end="252"><p data-start="171" data-end="252">Za <strong data-start="174" data-end="195">uređivanje IBAN-a</strong>, kliknite gumb <strong data-start="211" data-end="222">„Uredi“</strong> pored odgovarajućeg IBAN-a.</p></li><li data-start="253" data-end="336"><p data-start="256" data-end="336">Za <strong data-start="259" data-end="278">brisanje IBAN-a</strong>, kliknite gumb <strong data-start="294" data-end="306">„Obriši“</strong> pored odgovarajućeg IBAN-a.</p></li><li data-start="337" data-end="419"><p data-start="340" data-end="419">Potvrdite promjenu ili brisanje, kako bi se akcija izvršila.</p></li>
-
-                  - id: "mh3gcriu8khcciwha5j"
-                    x: 1516
-                    y: 772
-                    title: "Spremi"
-                    text: |
-                      <li data-start="94" data-end="182"><p data-start="97" data-end="182">Nakon što unesete ili izmijenite sve željene postavke, pritisnite gumb <strong data-start="167" data-end="179">„Spremi“</strong>.</p></li><li data-start="183" data-end="256"><p data-start="186" data-end="256">Kliknite gumb <strong data-start="200" data-end="212">„Spremi“</strong> kako biste sačuvali sve unesene promjene.</p></li>
-
+                imagePath: "https://i.ibb.co/hRXN1czS/WEB-banka.png"
+                longDescription: |
+                  <li data-start="167" data-end="230"><p data-start="170" data-end="230">Kliknite na gumb kako biste otvorili polje za unos <strong>IBAN</strong>-a.</p></li><li data-start="231" data-end="274"><p data-start="234" data-end="274">Unesite ispravan <strong>IBAN</strong> i spremite unos.
               - id: "mh1wwhxawonwlqp9ruq"
                 title: "Dodavanje IBAN-a"
                 imagePath: "https://i.ibb.co/F4kN5rvm/WEB-dodavanje-ibana.png"
@@ -159,72 +63,58 @@ categories:
                     text: |
                       <li data-start="108" data-end="158"><p data-start="111" data-end="158">U predviđeno polje upišite <strong data-start="138" data-end="155">ispravan IBAN</strong>.</p></li><li data-start="159" data-end="264"><p data-start="162" data-end="264">Nakon unosa, aplikacija će <strong data-start="189" data-end="219">automatski prepoznati IBAN</strong> i popuniti ostale pripadajuće vrijednosti.</p></li><li data-start="265" data-end="312"><p data-start="268" data-end="312">Provjerite unesene podatke prije nastavka.</p></li>
 
-                  - id: "mh3gjkondqbihyzm3xo"
-                    x: 1161
-                    y: 843
-                    title: "Spremanje IBAN-a"
-                    text: |
-                      <li data-start="100" data-end="180"><p data-start="103" data-end="180">Nakon što ste unijeli ili izmijenili postavke, pronađite gumb <strong data-start="165" data-end="177">„Spremi“</strong>.</p></li><li data-start="181" data-end="266"><p data-start="184" data-end="266">Kliknite na gumb <strong data-start="201" data-end="213">„Spremi“</strong> kako biste sačuvali sve prethodno unesene podatke.</p></li>
-
           - id: "mh1x0ioa5a0dvlto74"
             name: "Logo"
             pages:
               - id: "mh1x0pb5ymhvaaiv4do"
                 title: "Logo"
-                imagePath: "https://i.ibb.co/Q7M7PKYZ/WEB-logo-postavke-firme.png"
+                imagePath: "https://i.ibb.co/dsWyz2xz/WEB-logo.png"
                 coordinates:
                   - id: "mh3gr9q1c4yxi3m4ijf"
-                    x: 884
-                    y: 418
+                    x: 1411
+                    y: 388
                     title: "Logo"
                     text: |
                       <li data-start="101" data-end="165"><p data-start="104" data-end="165">Pritiskom na gumb otvara se novi prozor.</p></li><li data-start="166" data-end="248"><p data-start="169" data-end="248">U otvorenom prozoru odaberite <strong data-start="199" data-end="228">logo vaše firme ili obrta</strong> sa svog računala.</p></li><li data-start="249" data-end="300"><p data-start="252" data-end="300">Potvrdite odabir kako bi odabrani logo bio učitan.</p></li>
-
-                  - id: "mh3grl4czmj9vk8996f"
-                    x: 1537
-                    y: 803
-                    title: "Spremi Logo"
-                    text: |
-                      <li data-start="100" data-end="180"><p data-start="103" data-end="180">Nakon što ste unijeli ili izmijenili postavke, pronađite gumb <strong data-start="165" data-end="177">„Spremi“</strong>.</p></li><li data-start="181" data-end="266"><p data-start="184" data-end="266">Kliknite na gumb <strong data-start="201" data-end="213">„Spremi“</strong> kako biste sačuvali sve prethodno unesene podatke.</p></li>
 
           - id: "mh1x14oa6vn0k4it8is"
             name: "Poslovni podaci"
             pages:
               - id: "mh1x1d4jx0aym2kvmug"
                 title: "Poslovni podaci"
-                imagePath: "https://i.ibb.co/nqNxPkbM/WEB-poslovni-podatci-postavke-firme.png"
+                imagePath: "https://i.ibb.co/8qbwrhN/WEB-poslovno-podatci.png"
                 coordinates:
                   - id: "mh3gy8yuppnbgvq20j"
-                    x: 318
-                    y: 323
+                    x: 1031
+                    y: 383
                     title: "MBS- Matični broj subjekta"
                     text: |
                       <li data-start="96" data-end="151"><p data-start="99" data-end="151"><span style="font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif;">U predviđeno polje upišite </span><strong data-start="182" data-end="222" style="font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif;">ispravan MBS (matični broj subjekta)</strong><span style="font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif;">.</span></p></li><li data-start="226" data-end="271"><p data-start="229" data-end="271">Provjerite točnost unosa prije nastavka.</p></li>
 
                   - id: "mh3gyanaghjyv4nwdo"
-                    x: 1106
-                    y: 323
+                    x: 1776
+                    y: 387
                     title: "Temeljni kapital"
                     text: |
                       <li data-start="96" data-end="151"><p data-start="99" data-end="151"><span style="font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif;">U predviđeno polje upišite <b>temeljni kapital</b></span></p></li><li data-start="226" data-end="271"><p data-start="229" data-end="271">Provjerite točnost unosa prije nastavka.</p></li>
 
                   - id: "mh3h463wrzpflhqfxx"
-                    x: 1526
-                    y: 324
+                    x: 2112
+                    y: 388
                     title: "Odabir valute"
                     text: |
                       <li data-start="96" data-end="151"><p data-start="99" data-end="151"><span style="font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif;">U padajućem izborniku odaberite željenu <b>valutu</b></span></p></li><li data-start="226" data-end="271"><p data-start="229" data-end="271">Provjerite točnost unosa prije nastavka.</p></li>
 
                   - id: "mh3h47ysxo4kh1cj61"
-                    x: 456
-                    y: 406
+                    x: 1036
+                    y: 471
                     title: "Odabir trgovačkog suda"
                     text: |
                       <li data-start="96" data-end="151"><p data-start="99" data-end="151"><span style="font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif;">U padajućem izborniku odaberite <b>trgovački sud.</b></span></p></li><li data-start="226" data-end="271"><p data-start="229" data-end="271">Provjerite točnost unosa prije nastavka.</p></li>
 
                   - id: "mh3h4d263lzbfoxfmq"
-                    x: 1559
-                    y: 461
+                    x: 2159
+                    y: 709
                     title: "Dodaj člana uprave"
                     text: |
                       <li data-start="96" data-end="151"><p data-start="99" data-end="151"><span style="font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif;">U predviđeno polje d</span>odajte <strong>člana/članove uprave</strong>.</p></li><li data-start="226" data-end="271"><p data-start="229" data-end="271">Provjerite točnost unosa prije nastavka.</p></li>
@@ -252,12 +142,23 @@ categories:
         pages:
           - id: "mh1w3veudsua669iur"
             title: "Uređivanje firme"
+            imagePath: "https://i.ibb.co/0p6dvtd0/Screenshot-2025-10-23-at-16-39-42.png"
+            longDescription: |
+              <li data-start="109" data-end="185"><p data-start="112" data-end="185">Kliknite na <strong data-start="124" data-end="147">ikonu s tri točkice</strong> da se otvori <strong data-start="161" data-end="182">padajući izbornik i odaberite postavke firme</strong>
+              </p></li>
+          - id: "mh3j8yhd4zfhzwz36te"
+            title: "Uređivanje firme - Osnovni podatci"
+            imagePath: "https://i.ibb.co/Gfq0sbGt/WEB-osnovni-podatci.png"
+            longDescription: |
+              <p>Uredite tražene podatke</p>
       - id: "mh1xb0rj4ah2cjej3fo"
         name: "Certifikat za fiskalizaciju"
         pages:
           - id: "mh1xc9aryvm5e504ebi"
             title: "Dodavanje certifikata za fiskalizaciju"
             imagePath: "https://i.ibb.co/PzjZ4p7m/WEB-certifikat-upload.png"
+            longDescription: |
+              <p>Boja ikonice prikazuje status certifikata:</p><p><strong>Zeleno</strong> – Certifikat je uspješno učitan</p><p><strong>Crveno</strong> – Certifikat za fiskalizaciju nije dodan</p><p><br></p><p>Pritiskom na ikonu otvara se novi prozor za upload certifikata.</p>
             coordinates:
               - id: "mh3hmc4a9zf6yt73r98"
                 x: 1751
@@ -265,8 +166,6 @@ categories:
                 title: "Certifikat za fiskalizaciju"
                 text: |
                       <li data-start="121" data-end="281"><p data-start="124" data-end="172">Boja ikonice prikazuje status certifikata:</p><ul data-start="176" data-end="281"><li data-start="176" data-end="222"><p data-start="178" data-end="222"><strong data-start="178" data-end="188">Zeleno</strong> – Certifikat je uspješno učitan</p></li><li data-start="226" data-end="281"><p data-start="228" data-end="281"><strong data-start="228" data-end="238">Crveno</strong> – Certifikat za fiskalizaciju nije dodan
-                      
-                      </p></li></ul></li><li data-start="282" data-end="354"><p data-start="285" data-end="354">Pritiskom na ikonu otvara se <strong data-start="314" data-end="351">novi prozor za upload certifikata</strong>.</p></li>
 
           - id: "mh3hytd85dcuani1w8a"
             title: "Upload certifikata"
@@ -293,6 +192,54 @@ categories:
                 text: |
                       <li data-start="93" data-end="195"><p data-start="96" data-end="195">Kliknite gumb <strong data-start="110" data-end="134">„Dodaj certifikat“</strong> kako biste odabrali i učitali certifikat sa svog računala.</p></li><li data-start="196" data-end="280"><p data-start="199" data-end="280">Nakon učitanja certifikata, unesite <strong data-start="235" data-end="258">lozinku certifikata</strong> u predviđeno polje.</p></li><li data-start="281" data-end="377"><p data-start="284" data-end="377">Pritiskom na gumb <strong data-start="302" data-end="323">„Dodaj Certifikat“</strong> sačuvajte sve unesene podatke i učitani certifikat.</p></li>
 
+      - id: "mfkv9ke4f9huo7b4bon"
+        name: "PDV"
+        children:
+          - id: "mfl4ewmdzpvu55n143"
+            name: "Ulazak u sustav PDV-a"
+            children:
+              - id: "mfl4fbnlwmgdwljo1zh"
+                name: "AiKasa za firme/obrte koji ulaze u sustav PDV-a"
+                pages:
+                  - id: "mfl4ipmbtfsk9ahn9pq"
+                    title: "Opcija "Postavke firme""
+                    imagePath: "https://i.ibb.co/vvJ2QQhy/firma-pregled.png"
+                    longDescription: |
+                      <p><font color="#222222" face="Arial, Helvetica, sans-serif" size="2"><span style="white-space-collapse: collapse;">Na početnom ekranu AiKase, potrebno je izabrati opciju "Postavke firme" kako je i označeno na slici.</span></font></p>
+                  - id: "mfl4nopzljirxj4ulj"
+                    title: "Opcije firme"
+                    imagePath: "https://i.ibb.co/HL4T3Syn/firma-u-pdv.png"
+                    longDescription: |
+                      <p>Odabirom opcije "Postavke firme", otvara se prozor kao na slici.
+                      Označite opciju "Firma je u sustavu PDV-a" te odaberite tip poreza.
+                      </p>
+                  - id: "mhm1g8uk7v233xpelqk"
+                    title: "Dodavanje PDV-a u cjeniku"
+                    imagePath: "https://i.ibb.co/7xMDDdr2/PDV-cjenik-pnp-skinuta.png"
+                    longDescription: |
+                      <p>Nakon što smo u postavkama odabrali da je firma u sustavu PDV-a, potrebno je definirati visinu poreza i porez na potrošnju za artikle u cjeniku.<br></p>
+          - id: "mfl9hzhxerx9jqiaqcb"
+            name: "Izlaz iz sustava PDV-a"
+            children:
+              - id: "mfl9iadyuk2y4h77w2l"
+                name: "Firme/obrti koji izlaze u sustav PDV-a"
+                pages:
+                  - id: "mfl9jkq21v5h3t6zsq9"
+                    title: "Opcija "Postavke firme""
+                    imagePath: "https://i.ibb.co/vvJ2QQhy/firma-pregled.png"
+                    longDescription: |
+                      <p><span style="color: rgb(34, 34, 34); font-family: Arial, Helvetica, sans-serif; font-size: small; white-space-collapse: collapse;">Na početnom ekranu AiKase, potrebno je izabrati opciju "Postavke firme" kako je i označeno na slici.</span><br></p>
+                  - id: "mfl9jwpy50cht85v32h"
+                    title: "Opcije firme"
+                    imagePath: "https://i.ibb.co/XZSz0dz9/PDV-firma-pdv-izlaz.png"
+                    longDescription: |
+                      <p>Odabirom opcije "Postavke firme", otvara se prozor kao na slici.
+                      Odznačite opciju "Firma je u sustavu PDV-a".</p>
+                  - id: "mhm208j9itxt012hyd"
+                    title: "Micanje PDV-a iz cjenika"
+                    imagePath: "https://i.ibb.co/MDTYbV2t/PDV-cjenik-pnp.png"
+                    longDescription: |
+                      <p>Nakon što smo u postavkama odabrali da je firma nije u sustavu PDV-a, potrebno je staviti visinu poreza i porez na potrošnju na 0 za artikle u cjeniku.</p>
   - id: "mh1vzl1hbm9i5q365bu"
     name: "Prodajno mjesto"
     children:
@@ -301,660 +248,345 @@ categories:
         pages:
           - id: "mh1x3rexxyirrayxhlr"
             title: "Pregled"
-            content: |
-              <p>Pregled</p><p><br></p>
+            imagePath: "https://i.ibb.co/LX9tjBd4/Screenshot-2025-10-27-at-14-46-28.png"
+            longDescription: |
+              <p>Pregled prodajnih mjesta. <span style="color: rgb(85, 85, 85); font-family: -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, Roboto, Oxygen, Ubuntu, Cantarell, sans-serif; font-size: 15.2px; white-space-collapse: collapse;">Korisnik može imati neograničen broj prodajnih mjesta.</span></p>
       - id: "mh1x605ccdt6c1gn905"
         name: "Dodavanje"
         pages:
           - id: "mh1x4sm96fuqxa1uh74"
             title: "Dodavanje"
-            content: |
+            imagePath: "https://i.ibb.co/4wVz1dVs/Screenshot-2025-10-30-at-13-37-46.png"
+            longDescription: |
               <p>Dodavanje</p><p><br></p>
       - id: "mh1x641mz3dbvf7oazc"
         name: "Uređivanje"
-        pages:
-          - id: "mh1x55q0aa12ee20n9j"
-            title: "Uređivanje"
-            content: |
-              <p>Uređivanje</p>
+        children:
+          - id: "mh1x641mz3dbvf7oazc-pages"
+            name: "Pregled"
+            pages:
+              - id: "mh1x55q0aa12ee20n9j"
+                title: "Pregled"
+                imagePath: "https://i.ibb.co/hRc2hhn2/Screenshot-2025-10-30-at-13-45-49.png"
+                longDescription: |
+                  <p>Uređivanje</p>
+          - id: "mhdf0o5btn4zcn2rzt9"
+            name: "Postavke prodajnog mjesta"
+            pages:
+              - id: "mhdf0vpotk3f8l3do0m"
+                title: "Postavke prodajnog mjesta"
+                imagePath: "https://i.ibb.co/VpBKKbp3/post-prod-mjesta.gif"
+          - id: "mhalcxtbuj36qxwlr1s"
+            name: "Postavke poreza"
+            pages:
+              - id: "mhald4639anhnun2pz"
+                title: "Postavke poreza"
+                imagePath: "https://i.ibb.co/VcMCrSGN/postavke-poreza.gif"
+          - id: "mhal98xktmbzz3rsvgp"
+            name: "Postavke računa"
+            pages:
+              - id: "mhal9getxh4ik2xo1i"
+                title: "Postavke računa"
+                imagePath: "https://i.ibb.co/bMGSdc5v/postavke-racuna.gif"
   - id: "mh1vzz91nxpgrulg7j"
-    name: "Blagajna"
+    name: "Blagajne"
     children:
       - id: "mh1w8awci3ucrwdfddp"
         name: "Pregled"
+        pages:
+          - id: "mhalphg3rnjlafsfwq"
+            title: "Pregled"
+            imagePath: "https://i.ibb.co/xKVG2k8f/pregled-blagajna.png"
       - id: "mh1w8fsq662rmgasi"
         name: "Dodavanje"
+        pages:
+          - id: "mhalpmbdn3x6vd4g7id"
+            title: "Dodavanje"
+            imagePath: "https://i.ibb.co/rKJ0Ps59/BL-pregled.png"
       - id: "mh1w8liaey04ysmnocg"
         name: "Uređivanje"
+        children:
+          - id: "mhdge7x36vvyf6fjq34"
+            name: "Postavke blagajne"
+            pages:
+              - id: "mhalppza3rgmwjy85q7"
+                title: "Postavke blagajne"
+                imagePath: "https://i.ibb.co/Txj2HZ93/BL-uredivanje.png"
+          - id: "mhdgei07zgh0466g2n"
+            name: "Postavke računa blagajne"
+            pages:
+              - id: "mhdgarn5i09ah7hqidk"
+                title: "Postavke računa blagajne"
+                imagePath: "https://i.ibb.co/99MxvYxN/BL-po-racuna.png"
+          - id: "mhm5hab9nlddoakzse"
+            name: "Postavke izgleda blagajne"
+            pages:
+              - id: "mhm5hit8ojilxawlp9"
+                title: "Postavke izgleda blagajne"
+                imagePath: "https://i.ibb.co/fVr0NHQX/izgled_blagajne_postavke.png"
+              - id: "mhm5k3w83ygxo41hv05"
+                title: "Odaberi template blagajne"
+                imagePath: "https://i.ibb.co/JwkkXcky/template-blagajne.png"
   - id: "mh1wdi1q4t43afhg0e9"
     name: "Artikli"
+    children:
+      - id: "mhdhjfl01cnl2ow704u"
+        name: "Pregled"
+        pages:
+          - id: "mhdhks8qjhmk7n6e8s"
+            title: "Artikli"
+            imagePath: "https://i.ibb.co/SXcctj5f/Artikli-pregled-new.png"
+          - id: "mhdk04waq2bwha461mn"
+            title: "Kategorije artikala"
+            imagePath: "https://i.ibb.co/SYKj46z/Artikli-kategorije-new.png"
+          - id: "mhdk0kawn2oxyrxe71"
+            title: "Popusti"
+            imagePath: "https://i.ibb.co/1YYs3MLd/Artikli-popusti-new.png"
+      - id: "mhdkh6rb0efnns9jncsi"
+        name: "Dodavanje"
+        pages:
+          - id: "mhdkiuhnlggjwp9jm8"
+            title: "Dodavanje artikla"
+            imagePath: "https://i.ibb.co/2Y6wFh9Z/Artikl-dodavanje.png"
+          - id: "mhdkspaldn4duxmejnl"
+            title: "Dodavanje kategorije"
+            imagePath: "https://i.ibb.co/xtJYn7Js/Artikli-dodavanje-kategorija.png"
+          - id: "mhdkt1nhq0evkujmje"
+            title: "Dodavanje popusta"
+            imagePath: "https://i.ibb.co/tM31wT1k/Artikli-dodavanje-popust.png"
+      - id: "mhdky9evn312mz482ii"
+        name: "Uređivanje"
+        pages:
+          - id: "mhdkj18i59tjttogvn"
+            title: "Uređivanje artikla "
+            imagePath: "https://i.ibb.co/mFMd5gmq/Artikli-uredivanje.png"
   - id: "mh1wdbgpvzgx0w8xmvf"
     name: "Cjenik"
-  - id: "mobile-apk"
-    name: "AiKasa Web"
     children:
-      - id: "mh1ua0lztn2sos10pe"
-        name: "Novi račun"
+      - id: "mhdhke3kacb3jahwldt"
+        name: "Pregled"
         pages:
-          - id: "mh1uah2glwjst7uufy"
-            title: "Izdavanje novog računa"
-            imagePath: "https://i.ibb.co/wF2rBRmT/novi-racun-web.png"
-            coordinates:
-              - id: "mh1uc2cxlso8qtjskxr"
-                x: 762
-                y: 407
-                title: "Dodavanje artikla na račun"
-                text: |
-                      <p>mogućnost pretrage artikala, odabir količine artikala i popusta</p>
-
-              - id: "mh1ucdpqq2psaiqbpea"
-                x: 965
-                y: 850
-                title: "Dodaj podatke o kupcu"
-                text: |
-                      <p>Mogućnost izdavanja računa s podatcima o kupcu.</p>
-
-              - id: "mh1ucegk1vrxwnhob61"
-                x: 921
-                y: 947
-                title: "Dodaj napomenu"
-                text: |
-                      <p>Dodaj napomenu na račun</p>
-
-              - id: "mh1ucg3vjs8vjzrc2c"
-                x: 2012
-                y: 232
-                title: "Odabir načina plaćanja"
-                text: |
-                      <p>Gotovina, kartice, ostalo...</p>
-
-              - id: "mh1ucihg54s918f7eu9"
-                x: 1166
-                y: 1100
-                title: "Račun za predujam"
-                text: |
-                      <p>Račun za predujam, poveži račun za predujam</p>
-
-              - id: "mh1ucjqurw5dh9szvl"
-                x: 2193
-                y: 1102
-                title: "Izdavanje trenutnog računa"
-                text: |
-                      <p>Odabirom ovog gumba, izdajete trenutni račun.</p>
-
-      - id: "zadaci"
-        name: "Izbornik"
-        children:
-          - id: "zadaci1"
-            name: "Postavke"
-            pages:
-              - id: "zadaci-pregled1"
-                title: "Tab postavke"
-                imagePath: "https://i.ibb.co/wF2vm3jW/izbornik-postavke.png"
-                longDescription: |
-                  Ovdje je prikazan pregled svih dostupnih opcija u tabu postavke.
-                coordinates:
-                  - id: "mcbsyc0n44edkqjm5n9"
-                    x: 43
-                    y: 97
-                    title: "Platne kartice"
-                    text: |
-                      <p>Dodavanje kartica za plaćanje (MasterCard, Visa, Maestro, Diners, Viva wallet)<br></p>
-
-                  - id: "mcbsydpv4mnktql9klm"
-                    x: 41
-                    y: 161
-                    title: "POS uređaji"
-                    text: |
-                      <p>Dodavanje POS uređaja<br></p>
-
-                  - id: "mcbsyft3ow6ch59uutl"
-                    x: 41
-                    y: 227
-                    title: "Račun"
-                    text: |
-                      <p>Odjeljak za račune AiKase</p>
-
-                  - id: "mcbsyhihwft0b38zbr9"
-                    x: 41
-                    y: 291
-                    title: "Korisnici"
-                    text: |
-                      <p>Popis korisnika AiKase, te opcije korisnika (dodavanje, brisanje, privilegije)</p>
-
-                  - id: "mcbsyjh3xntuwraybj"
-                    x: 40
-                    y: 355
-                    title: "Komunikacija"
-                    text: |
-                      <p>Odjeljak gdje je definiran email za slanje računa AiKase</p>
-
-              - id: "zadaci-pregled2"
-                title: "Platne kartice"
-                imagePath: "https://i.ibb.co/yF3h1pTZ/konfiguracija-kartica.png"
-                longDescription: |
-                  Zadatke je, osim po restoranima, moguće dodatno filtrirati prema statusima. Inicijalno je postavljen početni status, a korisnik može prema potrebi odabrati i druge dostupne statuse za precizniji prikaz zadataka.
-                coordinates:
-                  - id: "hotspot-info-1"
-                    x: 2275
-                    y: 51
-                    title: "Dodaj novu karticu"
-                    text: "Gumb za dodavanje nove kartice."
-                  - id: "mh1ty4wjolrknh4rgl"
-                    x: 827
-                    y: 495
-                    title: "Naziv i status kartice"
-                  - id: "mh1tyrtuna3dl0qdl"
-                    x: 2172
-                    y: 492
-                    title: "Opcije kartice"
-                    text: |
-                      <p>Gubm za editiranje opcija kartice.</p>
-
-              - id: "mh1tt583m2t43ts8vct"
-                title: "POS uređaji"
-                imagePath: "https://i.ibb.co/YBVk9WyN/konfiguracija-pos-web.png"
-                coordinates:
-                  - id: "mh1u180rrdhgvas2jl"
-                    x: 2319
-                    y: 52
-                    title: "Dodavanje novog POS-a"
-                    text: |
-                      <p>Gumb za dodavanje novog POS uređaja.</p>
-
-                  - id: "mh1u1d2rm38dly6qte"
-                    x: 2127
-                    y: 239
-                    title: "Opcije POS uređaja."
-                    text: |
-                      <p>Gumb za pregled i konfiguraciju POS uređaja.</p>
-
-          - id: "zadaci3"
-            name: "Artikli"
-            pages:
-              - id: "popis-prijavljenih"
-                title: "Dodavanje artikala"
-                imagePath: "https://manuallio.com/images/nautika/Zadaci-dodavanje-min.png"
-                longDescription: |
-                  Izgled ekrana za dodavanje zadataka
-                coordinates:
-                  - id: "hotspot-zadatak-1"
-                    x: 1000
-                    y: 610
-                    text: "Zaposlenik kojem se zadaje zadatak"
-                  - id: "hotspot-zadatak-2"
-                    x: 1000
-                    y: 880
-                    text: "Naslov zadatka. Prikazan je u popisu zadataka"
-                  - id: "hotspot-zadatak-3"
-                    x: 1000
-                    y: 1210
-                    text: "Detaljniji opis zadatka ako je potrebno."
-                  - id: "hotspot-zadatak-4"
-                    x: 1000
-                    y: 1600
-                    text: |
-                      "<p>Tip zadatka određuje način na koji korisnik može završiti zadatak:</p>
-
-              - id: "mcohq6xm97d7vhq04er"
-                title: "Normativi"
-              - id: "mcohqfgdsdbznzb4wyb"
-                title: "Dodatne mjerne jedinice"
-          - id: "mcbs32ecwsn2jvnzmh"
-            name: "Cjenik"
-            pages:
-              - id: "mcohowbcjnlm0ht8s4s"
-                title: "Dodavanje artikala na cjenik"
-          - id: "mcbs4n1mvs4y3ei9wac"
-            name: "Skladište"
-            pages:
-              - id: "mcohu38ho4x803vga2a"
-                title: "Skladišni artikli"
-          - id: "mcbs4sxdh2dkcahbfbt"
-            name: "Računi i ponude"
-            pages:
-              - id: "mcohumkwthcv2k70bxb"
-                title: "Filtriranje računa po statusu"
-              - id: "mcohvje5zvmz4m919xm"
-                title: "Pretraga računa po parametrima"
-      - id: "pocetna-apk"
-        name: "Početna"
-        children:
-          - id: "pocetna-apk1"
-            name: "Početna stranica"
-            pages:
-              - id: "mcbpe5c3vts4obfc85g"
-                title: "Opcije firme"
-                imagePath: "https://i.ibb.co/dsdYmx7z/moje-firme-pojasnjenje.png"
-                longDescription: |
-                  Na ovom dijelu prikazan je popis firmi/obrta
-                coordinates:
-                  - id: "mcbq3flx358ckl2tcbr"
-                    x: 1513
-                    y: 894
-                    title: "Dodavanje certifikata"
-                  - id: "mcbq3gxnewg74ebs9y"
-                    x: 1747
-                    y: 895
-                    title: "Postavke firme"
-                    text: |
-                      <p>(Dodaj certifikat, Postavke firme, Postavke računa)</p>
-
-                  - id: "mcbq3n3ll377bsd1sh"
-                    x: 1348
-                    y: 684
-                    title: "Ime i status firme/obrta"
-          - id: "pregled-prijavljenih"
-            name: "Prodajna mjesta"
-            pages:
-              - id: "pregled-prijavljenih2"
-                title: "Prodajno mjesto"
-                imagePath: "https://i.ibb.co/CgYKrYT/prodajna-mjesta-Web.png"
-                longDescription: |
-                  Na ovom dijelu prikazan je popis prodajnih mjesta
-                coordinates:
-                  - id: "mcoi0bo7d888mkq2zzd"
-                    x: 1572
-                    y: 727
-                    title: "Opcije prodajnog mjesta"
-                    text: |
-                      <p>(Postavke prodajnog mjesta, postavke računa, konfiguracija printera, konfiguracija ustrojstvenih jedinica)</p>
-
-                  - id: "mcoi0ebv454icwg2ksa"
-                    x: 1440
-                    y: 623
-                    title: "Status i oznaka prodajnog mjesta"
-                  - id: "mh1pu746sm8w2j50vik"
-                    x: 1399
-                    y: 429
-                    title: "Naziv i adresa prodajnog mjesta"
-                  - id: "mh1rumzp7j4ccfhuoej"
-                    x: 1950
-                    y: 58
-                    title: "Dodaj prodajno mjesto"
-                    text: |
-                      <p>Gumb za dodavanje novog prodajnog mjesta</p>
-
-          - id: "mcbpryvb3h1t2qs20xz"
-            name: "Opcije blagajne"
-            pages:
-              - id: "mcohodcxiw840212rtb"
-                title: "Blagajne"
-                imagePath: "https://i.ibb.co/XZvd97ck/blagajna-web.png"
-                coordinates:
-                  - id: "mcohxfdtlt8ny7vhqc"
-                    x: 918
-                    y: 542
-                    title: "Naziv i status blagajne"
-                  - id: "mcohxh7lfgu35erpewq"
-                    x: 1035
-                    y: 638
-                    title: "Opcije blagajne"
-                    text: |
-                      <p>Postavke blagajne, Postavke računa blagajne
-                      (Dodano objašnjeno u daljnjem djelu uputa)</p>
-
-                  - id: "mcohxkyzg46hkhyyob4"
-                    x: 2162
-                    y: 49
-                    title: "Dodaj blagajnu"
-                    text: |
-                      <p>Gumb za dodavanje nove blagajne</p>
-
-                  - id: "mcohxmyhmimn9os1g8e"
-                    x: 134
-                    y: 888
-                    title: "AiKasa alatna traka"
-                    text: |
-                      <p>Prelaskom miša preko trake, traka će se proširiti te će sve opcije biti dostupne na pregled.</p>
-
-              - id: "mh1s3axl1rjod8ot147"
-                title: "Postavke blagajne"
-                imagePath: "https://i.ibb.co/B27XVQXk/opcije-blagajne-web.png"
-                coordinates:
-                  - id: "mh1s5pzwwqe41wmyob"
-                    x: 326
-                    y: 188
-                    title: "Naziv blagajne"
-                  - id: "mh1s5s0z7lnpku7hws6"
-                    x: 328
-                    y: 330
-                    title: "Oznaka blagajne"
-                  - id: "mh1s5t1n9k5pe06jpl"
-                    x: 314
-                    y: 471
-                    title: "Vrsta blagajne"
-                  - id: "mh1s5vzsfcfsqgkazp"
-                    x: 333
-                    y: 614
-                    title: "Polog na blagajni"
-                  - id: "mh1s5y8oinnsx3e8gkq"
-                    x: 506
-                    y: 752
-                    title: "Vrsta prijave na blagajnu"
-                    text: |
-                      <p>U ovom djelu odabirete vrstu prijave na blagajnu:
-
-                  - id: "mh1s5zs5uy96kvycgeh"
-                    x: 446
-                    y: 895
-                    title: "Nakon izdavanja računa"
-                    text: |
-                      <p>U ovom djelu odabirete akciju koja će se dogoditi nakon izdavanja računa:
-
-                  - id: "mh1s62eog49d7rm3zo"
-                    x: 445
-                    y: 1031
-                    title: "Odabir printera"
-                    text: |
-                      <p>Odabir printera te širine trake koju će te koristiti na trenutnoj blagajni:
-
-                  - id: "mh1s642trbpq0az2ee"
-                    x: 445
-                    y: 1147
-                    title: "Odabir terminala blagajne"
-                  - id: "mh1s65has9zuxfyu3s"
-                    x: 434
-                    y: 1262
-                    title: "Spremi postavke blagajne"
-                    text: |
-                      <p>Gumb za spremanje postavki blagajne</p>
-
-              - id: "mh1sfr8piadwaeabar"
-                title: "Postavke računa blagajne"
-                imagePath: "https://i.ibb.co/XxsNpQTw/postavke-racuna-blagajne-web.png"
-                coordinates:
-                  - id: "mh1sgvavnibqa6thhdc"
-                    x: 588
-                    y: 181
-                    title: "Zadnji broj računa"
-                    text: |
-                      <p>Ako je potrebno, ovdje se unosi broj posljednje izdanog računa kako bi numeracija novih računa bila usklađena s prethodno izdanima.</p>
-
-                  - id: "mh1sgwhe9rqjtipl6d4"
-                    x: 579
-                    y: 351
-                    title: "Zadnji broj ponude"
-                    text: |
-                      <p>Ako je potrebno, ovdje se unosi broj posljednje izdane ponude kako bi numeracija novih ponuda bila usklađena s prethodno izdanima.</p>
-
-                  - id: "mh1sgyxv8z3c1ok6x3q"
-                    x: 334
-                    y: 548
-                    title: "Napomena POS"
-                    text: |
-                      <p><div aria-hidden="true" data-edge="true" class="pointer-events-none h-px w-px"></div></p><article class="text-token-text-primary w-full focus:outline-none [--shadow-height:45px] has-data-writing-block:pointer-events-none has-data-writing-block:-mt-(--shadow-height) has-data-writing-block:pt-(--shadow-height) [&amp;:has([data-writing-block])&gt;*]:pointer-events-auto [content-visibility:auto] supports-[content-visibility:auto]:[contain-intrinsic-size:auto_100lvh] scroll-mt-[calc(var(--header-height)+min(200px,max(70px,20svh)))]" tabindex="-1" dir="auto" data-turn-id="request-WEB:fcbd913f-cad3-4cac-9326-ae83f39a4c20-1" data-testid="conversation-turn-4" data-scroll-anchor="true" data-turn="assistant"><div class="text-base my-auto mx-auto pb-10 [--thread-content-margin:--spacing(4)] thread-sm:[--thread-content-margin:--spacing(6)] thread-lg:[--thread-content-margin:--spacing(16)] px-(--thread-content-margin)"><div class="[--thread-content-max-width:40rem] thread-lg:[--thread-content-max-width:48rem] mx-auto max-w-(--thread-content-max-width) flex-1 group/turn-messages focus-visible:outline-hidden relative flex w-full min-w-0 flex-col agent-turn" tabindex="-1"><div class="flex max-w-full flex-col grow"><div data-message-author-role="assistant" data-message-id="70bfd283-749f-4d98-9017-2126db030488" dir="auto" class="min-h-8 text-message relative flex w-full flex-col items-end gap-2 text-start break-words whitespace-normal [.text-message+&amp;]:mt-1" data-message-model-slug="gpt-5"><div class="flex w-full flex-col gap-1 empty:hidden first:pt-[1px]"><div class="markdown prose dark:prose-invert w-full break-words dark markdown-new-styling"><p data-start="0" data-end="99" data-is-last-node="" data-is-only-node="">U ovom dijelu definira se napomena koja će biti prikazana na računu prilikom ispisa na POS uređaju.</p></div></div></div></div><div class="z-0 flex min-h-[46px] justify-start"></div><div class="mt-3 w-full empty:hidden"><div class="text-center"></div></div></div></div></article>
-
-                  - id: "mh1sh0tw582usn0c4p"
-                    x: 319
-                    y: 923
-                    title: "Napomena A4"
-                    text: |
-                      <p>U ovom dijelu definira se napomena koja će biti prikazana na računu prilikom ispisa na A4 papiru.</p>
-
-                  - id: "mh1sh2qv6me33slv15x"
-                    x: 528
-                    y: 1271
-                    title: "Postavke računa blagajne"
-              - id: "mh1stoq9fig9l049frs"
-                title: "Izgled blagajne"
-                imagePath: "https://i.ibb.co/gZ2qwZcS/izgled-blagajne-web.png"
-                coordinates:
-                  - id: "mh1sui7ujx7o4pjcyz"
-                    x: 2464
-                    y: 166
-                    title: "Novi račun"
-                    text: |
-                      <p>Odabirom ovog gumba, otvara se dodani prozor za izdavanje računa.</p>
-
-                  - id: "mh1suo9jpprohm36x9h"
-                    x: 2462
-                    y: 384
-                    title: "Pregled računa i ponuda"
-                    text: |
-                      <p>Odabirom ovog gumba otvara se dodatni prozor u kojem su prikazani trenutni računi/ponude</p>
-
-                  - id: "mh1supf35s2ok9egkzg"
-                    x: 2475
-                    y: 605
-                    title: "Izgled blagajne"
-                  - id: "mh1sv0xxvhjarsjy7i"
-                    x: 664
-                    y: 203
-                    title: "Izgled blagajne"
-                  - id: "mh1sv5raeei30t896zq"
-                    x: 2019
-                    y: 437
-                    title: "Izgled blagajne"
-  - id: "mcbrxjtlf1guak6pcyu"
-    name: "AiKasa mobile"
+          - id: "mhdhjim8v0mw90wnin"
+            title: "Cjenik"
+            imagePath: "https://i.ibb.co/5xBLxn4f/Cijenik-artikli.png"
+      - id: "mhdl9ujfsi8yesdux9m"
+        name: "Dodavanje"
+        pages:
+          - id: "mhdla1wc3btvvmtnpzj"
+            title: "Dodavanje"
+            imagePath: "https://i.ibb.co/HRYK46d/Cijenik-dodavanje-na-cijenik.png"
+      - id: "mhdki1i8g4hb4k9dx5n"
+        name: "Uređivanje"
+        pages:
+          - id: "mhdkzsf34dcy0ptyh2g"
+            title: "Uređivanje cijenika"
+            imagePath: "https://i.ibb.co/4RRHbGMB/Cijenik-uredivanje-new.png"
+  - id: "mhdlqrigvh6yf82xz78"
+    name: "Skladište"
     children:
-      - id: "mcbscip8gv2s60gxdgt"
-        name: "Početna"
-        children:
-          - id: "mcnihp53kwxqbzvmp1p"
-            name: "Početna stranica"
-            pages:
-              - id: "mcnik96pu1f607v8ohk"
-                title: "Početna"
-              - id: "mcnike5wpar2e3rbyz"
-                title: "Opcije firme"
-          - id: "mcnii4ctfd5yh57he4v"
-            name: "Prodajna mjesta"
-            pages:
-              - id: "mcniif4gd2yer3tusae"
-                title: "Prodajno mjesto"
-              - id: "mcniktt93di3aw3buqv"
-                title: "Blagajne"
-          - id: "mcnillixsdmi0jf4nrd"
-            name: "Blagajne"
-            pages:
-              - id: "mcnilrqbm0canci4ncs"
-                title: "Blagajne"
-      - id: "mcnigxvzg82hp4auk57"
-        name: "Izbornik"
-        children:
-          - id: "mcnim6lpfj4e4pj8snn"
-            name: "Postavke"
-          - id: "mcnimd0amd6ng3rwxi"
-            name: "Artikli"
-          - id: "mcnin4oyis5x9dbfez"
-            name: "Cjenik"
-          - id: "mcninchfd7scbsjc9qv"
-            name: "Skladište"
-          - id: "mcniniqlrleqpt8hxia"
-            name: "Računi i ponude"
-  - id: "mfkv9ke4f9huo7b4bon"
-    name: "PDV"
+      - id: "mhdlr0hdv2u41v5e57"
+        name: "Pregled"
+        pages:
+          - id: "mhdlr30ph3cm66df5xp"
+            title: "Pregled skladišta"
+            imagePath: "https://i.ibb.co/LhgRB1Sh/Skladiste-pregled-new.png"
+      - id: "mhdlrn19m588ks7h1pe"
+        name: "Dodavanje"
+        pages:
+          - id: "mhdlrrjg43l3q51z79o"
+            title: "Unos primke - dodavanje artikla na skladište"
+            imagePath: "https://i.ibb.co/bjTrxGt8/Skladiste-unos-primke.png"
+      - id: "mhj9euqrg6amci2n5r"
+        name: "Pregled dokumenata"
+        pages:
+          - id: "mhj9ff5bow0ux18mcnj"
+            title: "Pregled dokumenata"
+            imagePath: "https://i.ibb.co/2YNRTzNT/Skladiste-new.png"
+      - id: "mhjamrpumcdxo1zl31"
+        name: "Inventura"
+        pages:
+          - id: "mhjan48tzmfciv6da3"
+            title: "Inventura"
+            imagePath: "https://i.ibb.co/qLwnhT3d/Skladiste-inventura.png"
+  - id: "mhkemne6vff4z65du"
+    name: "Narudžbe"
     children:
-      - id: "mfl4ee1wz5vmew3obph"
-        name: "Firme u sustavu PDV-a"
+      - id: "mhkemzh0ybhnpvnf4rc"
+        name: "Pregled"
+        pages:
+          - id: "mhken353y0ygbph2r6"
+            title: "Pregled narudžbe"
+            imagePath: "https://i.ibb.co/4RpCqj9Z/Narudzbe-pregled.png"
+      - id: "mhkexctw7iv867ipj0l"
+        name: "Kreiranje"
+        pages:
+          - id: "mhkexxey9gajirpaj1p"
+            title: "Kreiranje narudžbe"
+            imagePath: "https://i.ibb.co/gLsWgtsF/Narudzbe-kreiraj-narudzbu.png"
+      - id: "mhkfil1vnklml523bta"
+        name: "Dobavljači"
+        pages:
+          - id: "mhkfitw69idk6x4m2zd"
+            title: "Dobavljači"
+            imagePath: "https://i.ibb.co/4ZcPWgpC/Narudzbe-dobavljaci.png"
+  - id: "mhkkkhzgpcy659ypgl"
+    name: "Računi i ponude"
+    children:
+      - id: "mhkkl09eywfe623dz8i"
+        name: "Pregled"
+        pages:
+          - id: "mhkklf978s0eetdrir3"
+            title: "Pregled računa"
+            imagePath: "https://i.ibb.co/wrprDt9n/Racuni-pregled.png"
+          - id: "mhkkme7u0agorcd8izys"
+            title: "Pregled ponuda"
+            imagePath: "https://i.ibb.co/MxSS9xVQ/Ponude-pregled-new.png"
+          - id: "mhkkml9xmhwnwpb4ue7"
+            title: "Pregled virmana"
+            imagePath: "https://i.ibb.co/xKgZ6k4p/Virman-pregled.png"
+  - id: "mhkr5n4an0x8b4lilhi"
+    name: "Klijenti"
+    children:
+      - id: "mhkr61yeffe43gvczeg"
+        name: "Pregled"
+        pages:
+          - id: "mhkr6gf2gqzexy7d64"
+            title: "Pregled"
+            imagePath: "https://i.ibb.co/pj0WpDDH/klijenti-pregled.png"
+          - id: "mhkr79p6rdj3ch0vgx"
+            title: "Dodaj klijenta"
+            imagePath: "https://i.ibb.co/kVgsWCx6/Klijenti-dodavanje.png"
+  - id: "mhkrsd1bh0240v0e8ft"
+    name: "Master"
+    children:
+      - id: "mhkrskee3ofgp8xnid7"
+        name: "Pregled"
+        pages:
+          - id: "mhkrsrv9rwwif9lfixj"
+            title: "Pregled Master"
+            imagePath: "https://i.ibb.co/Df2fLZRy/master.png"
+      - id: "mhkrv1s6ixxk2ji260j"
+        name: "Izvještaji"
+        pages:
+          - id: "mhkrvn88u3m40q4pn1"
+            title: "Rekapitulacija prometa"
+            imagePath: "https://i.ibb.co/3mmYs1ms/Rekapitulacija-prometa.png"
+          - id: "mhkrw88383v3u62omwa"
+            title: "Rekapitulacija kupci"
+            imagePath: "https://i.ibb.co/HfKCkncS/Rekapitulacija-po-kupcima-new.png"
+          - id: "mhkrwjn3hjh2k41mxpc"
+            title: "Porezno izvješće"
+            imagePath: "https://i.ibb.co/Txsh8xWv/Rekapitulacija-porezno-izvjesce.png"
+          - id: "mhkrx1fcsjuky4c2z4"
+            title: "Promet artikala"
+            imagePath: "https://i.ibb.co/S7fPFKWK/master-izvjestaji-promet-artikala.png"
+          - id: "mhkrx7rfe8zdt12k5m"
+            title: "Porez na potrošnju"
+            imagePath: "https://i.ibb.co/5xkgFg9D/master-izvjestaji-pmp.png"
+          - id: "mhkrxi2zn4tkd7ma0s"
+            title: "Rekapitulacija napojnica"
+            imagePath: "https://i.ibb.co/QFC9Hq68/master-izvjestaji-rek-napojnica.png"
+      - id: "mhkrv3dqv6m42vgo5l"
+        name: "Cjenik"
+        pages:
+          - id: "mhltt3vee3o7z3y7qqt"
+            title: "Pregled cjenika"
+            imagePath: "https://i.ibb.co/fz8XD9S5/master-cjenik-pregled.png"
+      - id: "mhkrv4t8vlz1e54foy"
+        name: "Skladište"
         children:
-          - id: "mfl4f9qnrficmk23mkd"
-            name: "Postavke"
-      - id: "mfl4ewmdzpvu55n143"
-        name: "Ulazak u sustav PDV-a"
-        children:
-          - id: "mfl4fbnlwmgdwljo1zh"
-            name: "AiKasa za firme/obrte koji ulaze u sustav PDV-a"
+          - id: "mhkrv4t8vlz1e54foy-pages"
+            name: "Materijalna kartica"
             pages:
-              - id: "mfl4ipmbtfsk9ahn9pq"
-                title: "Opcija "Postavke firme""
-                imagePath: "https://i.ibb.co/vxcFCLcv/postavke-firme.png"
-                longDescription: |
-                  <p><font color="#222222" face="Arial, Helvetica, sans-serif" size="2"><span style="white-space-collapse: collapse;">Na početnom ekranu AiKase, potrebno je izabrati opciju "Postavke firme" kako je i označeno na slici.</span></font></p>
-                coordinates:
-                  - id: "mfl4m7fixfcdakxai7k"
-                    x: 230
-                    y: 582
-                    title: "Postavke firme/obrta"
-                    text: |
-                      <p>Odabirom opcije "Postavke firme" otvara se prozor u kojem je moguće mjenjati postavke firme.</p>
-
-              - id: "mfl4nopzljirxj4ulj"
-                title: "Opcije firme"
-                imagePath: "https://i.ibb.co/Kp0dJBZH/sustav-pdva.png"
-                longDescription: |
-                  <p>Odabirom opcije "Postavke firme", otvara se prozor kao na slici.
-                coordinates:
-                  - id: "mfl4ty5yeuqm9lf9k6"
-                    x: 1200
-                    y: 618
-                    title: "Firma je u sustavu PDV-a"
-                    text: |
-                      <p>Ukoliko je Vaša firma u sustavu PDV-a, tada je potrebno označiti polje.</p>
-
-                  - id: "mfl4v2iktgmye1fz5n"
-                    x: 325
-                    y: 521
-                    title: "Vrsta poreza"
-                    text: |
-                      <p>Ovdje je potrebno unijeti :  "PDV ID" od Vaše firme/obrta. </p>
-
-              - id: "mfl4zbjp69ym7ks2xxx"
-                title: "Odabir vrste poreza"
-                imagePath: "https://i.ibb.co/cK781zhP/odabit-vrste-poreza.png"
-                longDescription: |
-                  <p>U sljedećem screenshotu je prikaz odabira vrste PDV-a u kojem se Vaša firma/obrt nalazi.</p>
-                coordinates:
-                  - id: "mfl51abvhupid9hd5m"
-                    x: 25
-                    y: 642
-                    title: "Porez na dobit"
-                    text: |
-                      <p>Odaberite ovu opciju ukoliko se Vaša firma/obrt nalazi u Porezu na dobit.</p>
-
-                  - id: "mfl51g6rk10ki1qxtq"
-                    x: 25
-                    y: 710
-                    title: "Porez na dohodak"
-                    text: |
-                      <p>Odaberite ovu opciju ukoliko se Vaša firma/obrt nalazi u Porezu na dohodak.<br></p>
-
-              - id: "mfl5c9tqn4geag2o00f"
-                title: "Artikli u cjeniku"
-                imagePath: "https://i.ibb.co/h1n7R7rL/cijenik-primjer.png"
-                longDescription: |
-                  <p><span style="color: rgb(34, 34, 34); font-family: Arial, Helvetica, sans-serif; font-size: small; white-space-collapse: collapse;">U cjeniku je prikaz svih artikala s cijenom te odgovarajućim iznos (%) PDV-a.</span><br></p>
-                coordinates:
-                  - id: "mfl74enu4297tv07feo"
-                    x: 298
-                    y: 654
-                    title: "Cjenik"
-                    text: |
-                      <p><span style="color: rgb(34, 34, 34); font-family: Arial, Helvetica, sans-serif; font-size: small; white-space-collapse: collapse;">U cjeniku svim artiklima dodati odgovarajući iznos (%) PDV-a, uz izmjenu pripadajuće cijene sa PDV-om za svaki artikl.</span><br></p>
-
-              - id: "mfl76u96j8knlbshji"
-                title: "Izmjena/dodavanje cijene i PDV-a na artikle."
-                imagePath: "https://i.ibb.co/TBLLMTJm/opcije-artikla-cijenik.png"
-                longDescription: |
-                  <p><span style="color: rgb(34, 34, 34); font-family: Arial, Helvetica, sans-serif; font-size: small; white-space-collapse: collapse;">Klikom na gumb (olovku) opcije - otvara Vam se prozor u kojem je moguće definirati iznos PDV-a te cijene artikala.</span><br></p>
-                coordinates:
-                  - id: "mfl79xd5vrxymk2ssu"
-                    x: 1643
-                    y: 278
-                    title: "Opcije artikla"
-                    text: |
-                      <p>Odabirom opcije artikla, otvara se prozor u kojem ćemo moći odrediti cijenu te PDV za pojedini artikl.</p>
-
-              - id: "mfl7bcnejr1wqu93h9"
-                title: "Definiranje cijene i PDV-a za pojedini Artikl"
-                imagePath: "https://i.ibb.co/4cktwtf/odabir-pdv-cijenik.png"
-                longDescription: |
-                  <p>Ovdje je moguće definiranje cijene i PDV-a za pojedini Artikl.</p>
-                coordinates:
-                  - id: "mfl7cnii534b4mxsl1t"
-                    x: 277
-                    y: 272
-                    title: "Definiranje cijene za pojedini Artikl"
-                    text: |
-                      <p>Ovdje definiramo cijenu artikla.</p>
-
-                  - id: "mfl7cpe308gvwua0zc1d"
-                    x: 330
-                    y: 560
-                    title: "Definiranje PDV-a za pojedini Artikl"
-                    text: |
-                      <p>Ovdje definiramo PDV artikla.<br></p>
-
-              - id: "mfl8gm9razkgwbqet76"
-                title: "Opcije artikla - Spremi"
-                imagePath: "https://i.ibb.co/wvM0K8X/izmjena-cijene-artikla.png"
-                longDescription: |
-                  Nakon što smo odredili cijenu arikla te odredili visinu PDV-a za artikl, potrebno je stisnuti gumb "Spremi"
-                coordinates:
-                  - id: "mfl8k90yn8nr5i4p3jo"
-                    x: 32
-                    y: 183
-                    title: "Odabir artikla sa skladišta"
-                    text: |
-                      <p>Ovdje odabiremo artikl koji želimo editirati.</p>
-
-                  - id: "mfl8kacgl9ot4k7g54l"
-                    x: 451
-                    y: 185
-                    title: "Artikl - aktivan ili neaktivan"
-                    text: |
-                      <p>U ovoj opciji je moguće odabrati: "Artikl - aktivan ili neaktivan"
-
-                  - id: "mfl8kcqkvg1dpv5jlbd"
-                    x: 29
-                    y: 326
-                    title: "Opcija upisa cijene u blagajni"
-                    text: |
-                      <p>Ako je ova opcija uključena, tada će prilikom svakog izdavanja računa biti potrebno odrediti cijenu artikla.
-                      Ukoliko je opcija isključena, tada će važiti dolje definirana cijena za artikl.</p>
-
-                  - id: "mfl8kfjhcl6afjjukhu"
-                    x: 27
-                    y: 432
-                    title: "Odabit kategorije artikla"
-                    text: |
-                      <p>Moguće je i dodati novu kategoriju pritiskom na gumb: "dodaj kategoriju"</p>
-
-                  - id: "mfl8kj3a9mcr87cgrnt"
-                    x: 26
-                    y: 580
-                    title: "Definiranje cijene artikla"
-                    text: |
-                      <p>Ovdje definiramo cijenu i PDV za pojedini artikl.</p>
-
-                  - id: "mfl8klam7cau633n71t"
-                    x: 424
-                    y: 750
-                    title: "Spremi"
-                    text: |
-                      <p>Nakon odabire opcije "Spremi" - spremamo postavke koje smo odredili.</p>
-
-      - id: "mfl9hzhxerx9jqiaqcb"
-        name: "Izlaz iz sustava PDV-a"
-        children:
-          - id: "mfl9iadyuk2y4h77w2l"
-            name: "Firme/obrti koji izlaze u sustav PDV-a"
+              - id: "mhlttfbl870cg92m6dj"
+                title: "Materijalna kartica"
+                imagePath: "https://i.ibb.co/C5hfCVtN/master-skladiste-mat-kartica.png"
+              - id: "mhlttho22kd62mytelk"
+                title: "Inventurni zapisnik"
+                imagePath: "https://i.ibb.co/1YwG02sR/master-skladiste-inv-zapisnik.png"
+          - id: "mhlugkcuui20bxx489f"
+            name: "Skladišna kartica"
             pages:
-              - id: "mfl9jkq21v5h3t6zsq9"
-                title: "Opcija "Postavke firme""
-                content: |
-                  <p><span style="color: rgb(34, 34, 34); font-family: Arial, Helvetica, sans-serif; font-size: small; white-space-collapse: collapse;">Na početnom ekranu AiKase, potrebno je izabrati opciju "Postavke firme" kako je i označeno na slici.</span><br></p>
-              - id: "mfl9jwpy50cht85v32h"
-                title: "Opcije firme"
-                content: |
-                  <p>Odabirom opcije "Postavke firme", otvara se prozor kao na slici.
-              - id: "mfl9l0cs2bpesxwkwht"
-                title: "Artikli u cjeniku"
-                content: |
-                  <p><span style="color: rgb(34, 34, 34); font-family: Arial, Helvetica, sans-serif; font-size: small; white-space-collapse: collapse;">U cjeniku je prikaz svih artikala s cijenom te odgovarajućim iznos (%) PDV-a.</span><br></p>
-              - id: "mfl9lwl3yc5bv9dln8d"
-                title: "Izmjena cijene i brisanje PDV-a za artikle."
-                content: |
-                  <p><span style="color: rgb(34, 34, 34); font-family: Arial, Helvetica, sans-serif; font-size: small; white-space-collapse: collapse;">Brisanje odgovarajućeg iznosa (%) PDV-a, uz izmjenu pripadajuće cijene sa PDV-om za svaki artikl.</span><br></p>
-              - id: "mfl9n1ef3pkcu2rs4cl"
-                title: "Definiranje cijene i PDV-a za pojedini Artikl"
-                content: |
-                  <p>Ovdje definirate cijenu bez PDV-a za svaki pojedini Artikl.<br></p>
-              - id: "mfl9nt3q47ttx7q6jzf"
-                title: "Opcije artikla - Spremi"
-                content: |
-                  <p>Nakon što smo odredili cijenu arikla bez PDV-a, potrebno je stisnuti gumb "Spremi"<br></p>
-  - id: "mh20bqsckzyaw53sec"
-    name: "New Category"
+              - id: "mhlttk0jl5rxuw9uiv"
+                title: "Primke"
+                imagePath: "https://i.ibb.co/spQwGK7y/primke.png"
+              - id: "mhluhr4vxuardsi491"
+                title: "Otpremnice"
+                imagePath: "https://i.ibb.co/YBfnyg66/otpremnice.png"
+  - id: "mhly9mvfmzhy4bg3m9"
+    name: "Izvještaji"
+    children:
+      - id: "mhly9uk27yiaa3npk1p"
+        name: "Zaključci blagajne"
+        pages:
+          - id: "mhlyw0uguo0ovrwvpp"
+            title: "Pregled"
+            imagePath: "https://i.ibb.co/fGNF8KvR/izvjestaji-zakljuci-blagajne.png"
+      - id: "mhlyaa5860v3xnooyig"
+        name: "PO - SD obrazac"
+        pages:
+          - id: "mhlz0lhzy0au559uzy"
+            title: "Pregled"
+            imagePath: "https://i.ibb.co/gL3W0x6P/izvjestaji-PO-SD.png"
+      - id: "mhlyabr7rqrfhir3dgd"
+        name: "Knjiga prometa"
+        pages:
+          - id: "mhlz3ljevlji4wc7nd"
+            title: "Pregled"
+            imagePath: "https://i.ibb.co/F48JT42w/izvjestaji-knjiga-prometa.png"
+      - id: "mhlyacoalahhw00ehce"
+        name: "Zbirni promet"
+        pages:
+          - id: "mhlz7virnf0z4n0slo"
+            title: "Pregled"
+            imagePath: "https://i.ibb.co/ksrrmXjb/izvjestaji-zbirni-promet.png"
+  - id: "mhm2igwcezdbdqdh5ib"
+    name: "Postavke"
+    children:
+      - id: "mhm2im5maalt1z5p82u"
+        name: "Platne kartice"
+        pages:
+          - id: "mhm2kny1kukj2neum6q"
+            title: "Pregled"
+            imagePath: "https://i.ibb.co/7x9C0Nbf/postavke-platne-kartice.png"
+          - id: "mhm2lep9onr3jj6m96"
+            title: "Dodavanje"
+            imagePath: "https://i.ibb.co/1JLhBv6w/postavke-dodavanje-kartice.png"
+      - id: "mhm31u954hs2pgdb59e"
+        name: "POS uređaji"
+        pages:
+          - id: "mhm327j1k7ayrr971eq"
+            title: "Pregled"
+            imagePath: "https://i.ibb.co/7JVYd6KW/postavke-pos-uredaji-neww.png"
+          - id: "mhm32ck6tp2bc1aw61"
+            title: "Dodavanje"
+            imagePath: "https://i.ibb.co/93vCGZ0R/postavke-dodaj-pos-new.png"
+      - id: "mhm3pbnnjjzoeu3byds"
+        name: "Račun"
+        pages:
+          - id: "mhm3pg4au3as77vzdj"
+            title: "Pregled"
+            imagePath: "https://i.ibb.co/4nB31Mmx/postavke-racun-new.png"
+            longDescription: |
+              <p>Pregled mjesečnih računa AiKase.</p>
+      - id: "mhm402aysoy5el2fhg"
+        name: "Korisnici"
+        pages:
+          - id: "mhm408kugizqswcsrzn"
+            title: "Pregled"
+            imagePath: "https://i.ibb.co/60FZ3t0n/postavke-korisnici.png"
+          - id: "mhm40xa96bwout19wgo"
+            title: "Dodaj korisnika"
+            imagePath: "https://i.ibb.co/cXryFdVd/postavke-dodaj-korisnika.png"
+      - id: "mhm48xs8ndk5xj0pg4"
+        name: "Komunikacija"
+        pages:
+          - id: "mhm494m7jleq47asjtk"
+            title: "Pregled"
+            imagePath: "https://i.ibb.co/fVZVXW8Y/postavke-komunikacija.png"
+          - id: "mhm49a0fsg6hgc2ht4b"
+            title: "Dodaj"
+            imagePath: "https://i.ibb.co/wFKTR4tM/postavke-komunikacija-dodaj.png"
+          - id: "mhm4bdta8wkr3ebltul"
+            title: "Editiraj"
+            imagePath: "https://i.ibb.co/JwBrxxgk/postavke-komunikacije-edit.png"
